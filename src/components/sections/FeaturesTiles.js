@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'Take your business global In sales and Profit We help your business, Brand or organization go viral, gain traction and drive conversion, implement Proven marketing strategies for peak profit'
   };
 
   return (
