@@ -8,7 +8,6 @@ const propTypes = {
   ...SectionProps.types,
   split: PropTypes.bool
 }
-
 const defaultProps = {
   ...SectionProps.defaults,
   split: false
@@ -35,6 +34,7 @@ const Cta = ({
     className
   );
 
+
   const innerClasses = classNames(
     'cta-inner section-inner',
     topDivider && 'has-top-divider',
@@ -53,7 +53,7 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              For previewing layouts and visual?
+            Subscibe to our Weekly newsletter?
               </h3>
           </div>
           <div className="cta-action">
