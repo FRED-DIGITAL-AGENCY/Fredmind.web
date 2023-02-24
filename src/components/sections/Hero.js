@@ -75,7 +75,7 @@ Accelerating African Startups, Creators & Businesses   <span className="text-col
                   <Button tag="a" color="primary" wideMobile href="https://calendly.com/fredminddigital/30min?month=2023-02">
                Start a Project
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="/#">
                    Talk To Us 
                     </Button>
                 </ButtonGroup>

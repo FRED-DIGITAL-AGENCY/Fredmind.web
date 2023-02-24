@@ -71,10 +71,12 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+               Digital Marketing
+
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                We explode companies online presence help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit 
+
                     </p>
                 </div>
               </div>
@@ -85,7 +87,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                       src={require('./../../assets/images/feature-tile-icon-03.svg')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -93,10 +95,12 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Website Development
+
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
+
                     </p>
                 </div>
               </div>
@@ -107,7 +111,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                     src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                    
                       alt="Features tile icon 03"
                       width={64}
                       height={64} />
@@ -115,10 +120,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Application Development
+
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                We build fast, responsive and device friendly apps deployed with the best KPI’s for efficiency and productivity. We love innovation and bring ideas to reality by applying holistic approaches to achieve results.
                     </p>
                 </div>
               </div>
@@ -137,10 +143,12 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Branding
+
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                 Harnessing the power of Branding online requires understanding why people talk and why some things get talked about and shared more than others. The psychology of sharing. The science of social transmission.
+
                     </p>
                 </div>
               </div>
