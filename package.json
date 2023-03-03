@@ -5,19 +5,23 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
+    "prop-types": "^15.8.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
+    "react-icons": "^4.8.0",
+    "react-naira": "^1.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
-    "sass": "^1.49.7"
+    "sass": "^1.49.7",
+    "styled-components": "^5.3.8"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Fredminddigital/fred.git"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
