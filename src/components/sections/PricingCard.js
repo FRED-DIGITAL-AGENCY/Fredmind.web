@@ -145,7 +145,7 @@ const PricingCard = ({
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    border-radius: 0.rem;
+    border-radius: 0.5rem;
     border: 0.1rem solid #5DD435;
     width: 90%;
     height: 3.5rem;

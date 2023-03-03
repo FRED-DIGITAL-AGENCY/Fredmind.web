@@ -86,6 +86,10 @@ function Pricing() {
               { text: "ipsum", value: true },
               { text: "dolor", value: true },
               { text: "dolor", value: true },
+              { text: "dolor", value: true },
+              { text: "dolor", value: true },
+              { text: "dolor", value: true },
+              
             ]}
             price={900090}
             shadow="#96e6a1"
