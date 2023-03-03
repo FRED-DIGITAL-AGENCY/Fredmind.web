@@ -8,7 +8,6 @@ import PropTypes from "prop-types";
 const PricingCard = ({
     data,
     price,
-    duration,
     background,
     shadow = "#a0c5fa",
     buttonContent,
@@ -17,7 +16,7 @@ const PricingCard = ({
     headerText,
   }) => {
     return (
-      
+        
       <MainContainer shadow={shadow}>
         <Header background={background}>{headerText}</Header>
         {price !== undefined && (
@@ -42,11 +41,7 @@ const PricingCard = ({
             )}
           </PricingContainer>
         )}
-        {buttonContent && (
-          <ButtonContainer>
-            <Button>{buttonContent}</Button>
-          </ButtonContainer>
-        )}
+       
         {data && (
           <DataContainer>
             <ul>
@@ -63,6 +58,11 @@ const PricingCard = ({
             </ul>
           </DataContainer>
         )}
+         {buttonContent && (
+            <ButtonContainer>
+              <Button>{buttonContent}</Button>
+            </ButtonContainer>
+          )}
       </MainContainer>
 
     //   
@@ -91,7 +91,6 @@ const PricingCard = ({
     margin: 0.6rem;
     height: 4rem;
     // background-color: #ebf3fd;
-    color:#fff;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -111,7 +110,7 @@ const PricingCard = ({
   
   const PriceContainer = styled.div`
     display: flex;
-    color:#ffffff;
+    color:#5DD435;
   `;
   const Price = styled.div`
     span {
@@ -122,6 +121,7 @@ const PricingCard = ({
     text-transform: uppercase;
     text-align: center;
     margin: 0.4rem 0 1.3rem 0;
+    
   `;
   
   const PriceText = styled.div`
@@ -130,6 +130,7 @@ const PricingCard = ({
     // width: 60%;
     text-align: center;
     font-weight: 100;
+    color:#5DD435;
   `;
   
   const ButtonContainer = styled.div`
@@ -144,17 +145,18 @@ const PricingCard = ({
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    border-radius: 0.3rem;
-    border: 0.1rem solid #1d3557;
+    border-radius: 0.rem;
+    border: 0.1rem solid #5DD435;
     width: 90%;
     height: 3.5rem;
     background-color: transparent;
+    color:#fff;
     font-size: 1.2rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     &:hover {
-      background-color: #1d3557;
-      color: white;
+      background-color:#5DD435;
+      color: #000;
     }
   `;
   
