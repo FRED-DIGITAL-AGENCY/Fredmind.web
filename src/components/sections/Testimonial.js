@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Why Startups Choose Us',
-    paragraph: ' We are more than a Digital marketing agency because we have studied the espousal between a success-driven money-hungry business, and a client waiting to be discovered . We serve as a bridge toward resolution and ultimately achieve digital marketing success. You get a team of experience techpreneurs and professionals who will help you pre-plan your start-up and set you on the limelight.'
+    paragraph: ' We are a Creative Agency who has studied the espousal between a success-driven money-hungry business, and a client waiting to be discovered . We serve as a bridge toward resolution and ultimately achieve Tech and Digital success. You get a team of experience techpreneurs and professionals who will help you pre-plan your start-up and set you on the limelight.'
   };
 
   return (

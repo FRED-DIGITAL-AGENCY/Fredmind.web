@@ -180,7 +180,7 @@ const PricingCard = ({
         margin-bottom: 1rem;
       }
     }
-  `;
+  `
   
   PricingCard.propTypes = {
     data: PropTypes.array.isRequired,
