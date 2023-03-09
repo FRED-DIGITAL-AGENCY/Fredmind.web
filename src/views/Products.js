@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Image from '../components/elements/Image';
 // import sections
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -13,6 +14,13 @@ const Products = () => {
     <>
 <HeroSection>
 			<Container>
+      {/* <Image
+                className="has-shadow"
+                src={require('./../../assets/images/hero-pattern=bg.png')}
+                alt="Hero"
+                width={896}
+                height={504} /> */}
+      {/* <HeroImage className="pattern" src="./.././../../assets/images/hero-pattern=bg.png" /> */}
 				<MainHeading>Product</MainHeading>
 				<HeroText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
@@ -97,6 +105,18 @@ const HeroSection = styled.section`
 	height: 100vh;
   font-weight:700;
 	padding-top: clamp(70px, 25vh, 220px);
+`;
+const HeroImage = styled.img`
+	z-index: 10;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	object-fit: cover;
+	&.pattern {
+		height: 100%;
+		max-height: 100%;
+		top: 0;
+	}
 `;
  const HeroText = styled.p`
 	margin-bottom: 35px;
