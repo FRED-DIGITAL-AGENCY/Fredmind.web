@@ -72,8 +72,6 @@ const PricingCard = ({
   
   
   const MainContainer = styled.div`
-    // @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
-    // font-family: "Raleway", sans-serif;
     width: 20rem;
     min-height: 40rem;
     height: max-content;
