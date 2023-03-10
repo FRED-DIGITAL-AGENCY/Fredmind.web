@@ -1,5 +1,4 @@
 import React from 'react'
-// import Cta from '../components/sections/Cta';
 import styled from "styled-components";
 import { FaCheck } from "react-icons/fa";
 import Naira from 'react-naira';

@@ -60,27 +60,25 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Accelerating African Startups, Creators & Businesses   <span className="text-color-primary">for peak profit  </span>
+            <h1 className="mt-0 mb-16 reveal-from-right" data-reveal-delay="300">Accelerating African Startups, Creators & Businesses   <span className="text-color-primary">for peak profit  </span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-             If you're building a great business or product in Africa, for Africa, We should work together! 
-
-
+              <p className="m-0 mb-32 reveal-from-left" data-reveal-delay="500">
+             If you're building a great business or product in Africa, for Africa, We should work together! Take your business global In sales and Profit
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://calendly.com/fredminddigital/30min?month=2023-02">
-               Start a Project
+                  <Button tag="a" color="secondary" wideMobile href="https://calendly.com/fredminddigital/30min?month=2023-02">
+              Talk To us 
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="/#">
-                   Talk To Us 
+                   Request a quote 
                     </Button>
                 </ButtonGroup>
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="400">
             <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"

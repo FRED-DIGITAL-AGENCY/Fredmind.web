@@ -63,9 +63,9 @@ const Testimonial = ({
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — 	The Growth Marketing Strategy on Social Media as a Big Influence on Brand Marketing truely tell the Impact on many Projects the brand has done and value he she brings with Ease.
-I am a Beneficiary of the High Value and Knowledge of FREDMIND as a Top-notch Digital Marketing Agency in Brand and Product Marketing.
-The brand has Rubbed this huge knowledge on my Career as a Filmmaker, my Platform as a Founder of Igotv.NG and my Current film Project with Founder as the Team Lead for Social Media Campaign.
-I recommend this to everyone with the Aim to Spread Beyond thier Current Locations and Business.
+                I am a Beneficiary of the High Value and Knowledge of FREDMIND as a Top-notch Digital Marketing Agency in Brand and Product Marketing.
+                The brand has Rubbed this huge knowledge on my Career as a Filmmaker, my Platform as a Founder of Igotv.NG and my Current film Project with Founder as the Team Lead for Social Media Campaign.
+                I recommend this to everyone with the Aim to Spread Beyond thier Current Locations and Business.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -90,7 +90,7 @@ I recommend this to everyone with the Aim to Spread Beyond thier Current Locatio
                   <span className="testimonial-item-name text-color-high">SOLOMON IKECHUKWU OLINYA</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Monik Integrated Services</a>
+                    <a href="https://monikltd.com/">Monik Integrated Services</a>
                   </span>
                 </div>
               </div>

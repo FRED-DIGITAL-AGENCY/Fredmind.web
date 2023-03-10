@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^4.1.1",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "prop-types": "^15.8.1",
@@ -13,8 +14,10 @@
     "react-naira": "^1.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
+    "react-tsparticles": "^2.9.3",
     "sass": "^1.49.7",
-    "styled-components": "^5.3.8"
+    "styled-components": "^5.3.8",
+    "tsparticles": "^2.9.3"
   },
   "repository": {
     "type": "git",
