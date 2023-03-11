@@ -15,11 +15,11 @@ const Company = () => {
 			<Container>
 				<MainHeading>Company</MainHeading>
 				<HeroText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit .
 				</HeroText>
 				<ButtonWrapper>
 					{/* <Link to="#">
-						<Button>Get Started</Button>
+						<Button>Read More</Button>
 					</Link> */}
 					<HeroButton>Find more</HeroButton>
 				</ButtonWrapper>
