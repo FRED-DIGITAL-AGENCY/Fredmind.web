@@ -121,6 +121,9 @@ const Header = ({
                        <li>
                       <Link to="/pricing" onClick={closeMenu}>Pricing</Link>
                     </li>
+                     <li>
+                      <Link to="/blog" onClick={closeMenu}>Blog</Link>
+                    </li>
                       <li>
                       <Link to="/company" onClick={closeMenu}>Company</Link>
                     </li>
@@ -130,7 +133,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="School" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>School</Link>
+                        <Link to="School" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>School</Link>
                       </li>
                     </ul>}
                 </div>
