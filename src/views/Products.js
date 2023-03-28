@@ -14,12 +14,12 @@ const Products = () => {
     <>
 <HeroSection>
 			<Container>
-      <Image
+      {/* <Image
                 className="has-shadow"
                 src={require('./../assets/images/hero-pattern-bg.png')}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={504} /> */}
       {/* <HeroImage className="pattern" src="./.././../../assets/images/hero-pattern=bg.png" /> */}
 				<MainHeading>Product</MainHeading>
 				<HeroText>
