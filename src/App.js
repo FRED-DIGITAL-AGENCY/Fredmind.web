@@ -14,6 +14,7 @@ import Products from './views/Products';
 import UseCases from './views/Usecases';
 import Pricing from './views/Pricing';
 import Company from './views/Company'
+import Blog from './views/Blog'
 import School from './views/School';
 
 
@@ -48,6 +49,7 @@ const App = () => {
              <AppRoute exact path="/usecases" component={UseCases} layout={LayoutDefault} />
              <AppRoute exact path="/pricing" component={Pricing} layout={LayoutDefault} />
              <AppRoute exact path="/company" component={Company} layout={LayoutDefault} />
+             <AppRoute exact path="/blog" component={Blog} />
                <AppRoute exact path="/school" component={School} layout={LayoutDefault} />
         </Switch>
       )} />
