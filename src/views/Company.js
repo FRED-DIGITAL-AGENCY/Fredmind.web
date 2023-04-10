@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Video from '../../src/assets/Video/Video.mp4'
+import Video from '../../src/assets/Video/video1.mp4'
+import Infosection from '../components/sections/Infosection';
 // import sections
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -14,20 +15,24 @@ const Company = () => {
     <>
 <HeroSection>
 	<HeroBg>
-		<VideoBg autoPlay loop muted src={Video} type='Video/mp4' />
+		<VideoBg autoPlay loop muted src={Video} type='Video1/mp4' />
 	</HeroBg>
 			<Container>
 				<MainHeading>Company</MainHeading>
 				<HeroText>
         We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit .
 				</HeroText>
-				<ButtonWrapper>
+				{/* <ButtonWrapper>
 					
 					<HeroButton>Find more</HeroButton>
-				</ButtonWrapper>
+				</ButtonWrapper> */}
+				
 			</Container>
+
 		</HeroSection>
-		<br></br>
+		{/* <Infosection
+        
+          /> */}
 		<br></br>
 		<br></br>
      
@@ -66,39 +71,39 @@ const VideoBg = styled.video`
 	object-fit:cover;
 	background:#232a34
 `
-const Button = styled.button`
-	border-radius: 4px;
-	background: none;
-	white-space: nowrap;
-	padding: 10px 20px;
-	font-size: 16px;
-  font-weight:600;
-	color: #fff;
-	outline: none;
-  border:none;
-	cursor: pointer;
-	overflow: hidden;
-	position: relative;
-	&:before {
-		content: '';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		z-index: -1;
-		transition: all 0.6s ease;
-		width: 100%;
-		height: 0%;
-		transform: translate(-50%, -50%) rotate(45deg);
-	}
-	&:hover:before {
-		height: 500%;
-	}
-	&:hover {
-    border:2px solid #fff;
-		color: black;
-	}
-`;
+// const Button = styled.button`
+// 	border-radius: 4px;
+// 	background: none;
+// 	white-space: nowrap;
+// 	padding: 10px 20px;
+// 	font-size: 16px;
+//   font-weight:600;
+// 	color: #fff;
+// 	outline: none;
+//   border:none;
+// 	cursor: pointer;
+// 	overflow: hidden;
+// 	position: relative;
+// 	&:before {
+// 		content: '';
+// 		position: absolute;
+// 		top: 50%;
+// 		left: 50%;
+// 		transform: translate(-50%, -50%);
+// 		z-index: -1;
+// 		transition: all 0.6s ease;
+// 		width: 100%;
+// 		height: 0%;
+// 		transform: translate(-50%, -50%) rotate(45deg);
+// 	}
+// 	&:hover:before {
+// 		height: 500%;
+// 	}
+// 	&:hover {
+//     border:2px solid #fff;
+// 		color: black;
+// 	}
+// `;
 
 const Container = styled.div`
 	width: 100%;
@@ -127,26 +132,26 @@ const HeroSection = styled.section`
 	color: #fff;
 `;
 
- const ButtonWrapper = styled.div`
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-flow: wrap;
-	gap: 0.5rem;
-`;
+//  const ButtonWrapper = styled.div`
+// 	width: 100%;
+// 	display: flex;
+// 	justify-content: center;
+// 	flex-flow: wrap;
+// 	gap: 0.5rem;
+// `;
 
-const HeroButton = styled(Button)`
-	color: #fff;
-	&:before {
-		background-color: #5DD435;
-		height: 500%;
+// const HeroButton = styled(Button)`
+// 	color: #fff;
+// 	background-color: #5DD435;
+// 	&:before {
+// 		height: 500%;
     
-	}
-	&:hover:before {
-		height: 0%;
-	}
-	&:hover {
-		color: white;
-	}
-`;
+// 	}
+// 	&:hover:before {
+// 		height: 0%;
+// 	}
+// 	&:hover {
+// 		color: white;
+// 	}
+// `;
 
