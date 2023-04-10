@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Video from '../../src/assets/Video/Video.mp4'
 // import sections
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -12,19 +13,23 @@ const Company = () => {
   return (
     <>
 <HeroSection>
+	<HeroBg>
+		<VideoBg autoPlay loop muted src={Video} type='Video/mp4' />
+	</HeroBg>
 			<Container>
 				<MainHeading>Company</MainHeading>
 				<HeroText>
         We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit .
 				</HeroText>
 				<ButtonWrapper>
-					{/* <Link to="#">
-						<Button>Read More</Button>
-					</Link> */}
+					
 					<HeroButton>Find more</HeroButton>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>
+		<br></br>
+		<br></br>
+		<br></br>
      
      
     
@@ -41,10 +46,26 @@ const MainHeading = styled.h1`
 	margin-bottom: 2rem;
 	width: 100%;
 	letter-spacing: 4px;
-  color: #5DD435;
+  	color: #5DD435;
 	text-align: center;
 `;
-
+const HeroBg = styled.div`
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+`
+const VideoBg = styled.video`
+	width:100%;
+	height:100%;
+	-o-bject-fit:cover;
+	object-fit:cover;
+	background:#232a34
+`
 const Button = styled.button`
 	border-radius: 4px;
 	background: none;
@@ -82,6 +103,7 @@ const Button = styled.button`
 const Container = styled.div`
 	width: 100%;
 	max-width: 1300px;
+	position:relative;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 50px;

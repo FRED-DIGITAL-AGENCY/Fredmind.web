@@ -23,13 +23,13 @@ const Products = () => {
       {/* <HeroImage className="pattern" src="./.././../../assets/images/hero-pattern=bg.png" /> */}
 				<MainHeading>Product</MainHeading>
 				<HeroText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+					COMING SOON ...
 				</HeroText>
 				<ButtonWrapper>
 					{/* <Link to="#">
 						<Button>Get Started</Button>
 					</Link> */}
-					<HeroButton>Check it out</HeroButton>
+					{/* <HeroButton></HeroButton> */}
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>
