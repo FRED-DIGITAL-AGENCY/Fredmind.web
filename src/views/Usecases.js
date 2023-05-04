@@ -13,6 +13,7 @@ const Usecases = () => {
   return (
     <>
     <HeroSection>
+ 
           <Container>
             <MainHeading>Use Cases</MainHeading>
             <HeroText>
