@@ -10,32 +10,8 @@ import Cta from '../components/sections/Cta';
 
 const Usecases = () => {
 
-  return (
-    <>
-    <HeroSection>
- 
-          <Container>
-            <MainHeading>Use Cases</MainHeading>
-            <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
-            </HeroText>
-            <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Find more</HeroButton>
-            </ButtonWrapper>
-          </Container>
-        </HeroSection>
-         
-         
-        
-          <Cta split />
-        </>
-      );
-    }
-    export default Usecases;
-    
+
+
     
     //STYLED COMPONENTS
     const MainHeading = styled.h1`
@@ -130,4 +106,31 @@ const Usecases = () => {
       }
     `;
     
+    
+
+  return (
+    <>
+    <HeroSection>
+ 
+          <Container>
+            <MainHeading>Use Cases</MainHeading>
+            <HeroText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            </HeroText>
+            <ButtonWrapper>
+              {/* <Link to="#">
+                <Button>Get Started</Button>
+              </Link> */}
+              <HeroButton>Find more</HeroButton>
+            </ButtonWrapper>
+          </Container>
+        </HeroSection>
+         
+         
+        
+          <Cta split />
+        </>
+      );
+    }
+    export default Usecases;
     
