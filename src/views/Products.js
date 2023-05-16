@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useState, CSSProperties } from 'react';
+import PacmanLoader from "react-spinners/PacmanLoader"
 import Image from '../components/elements/Image';
 // import sections
 import Hero from '../components/sections/Hero';
@@ -8,11 +10,19 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
+const override: CSSProperties = {
+  display: "flex",
+  margin: "0 auto",
+  marginTop:"10px"
+};
 const Products = () => {
-
+	const [loading, setLoading] = useState(true);
   return (
     <>
+	
 <HeroSection>
+<Button
+onClick={()=> setLoading(!loading)}></Button>
 			<Container>
       {/* <Image
                 className="has-shadow"
@@ -22,9 +32,17 @@ const Products = () => {
                 height={504} /> */}
       {/* <HeroImage className="pattern" src="./.././../../assets/images/hero-pattern=bg.png" /> */}
 				<MainHeading>Product</MainHeading>
-				<HeroText>
-					COMING SOON ...
+				<HeroText>Coming soon
+					<PacmanLoader
+					loading={loading}
+					size={60}
+					cssOverride={override}
+					color="white"
+					
+				/>
+
 				</HeroText>
+				
 				<ButtonWrapper>
 					{/* <Link to="#">
 						<Button>Get Started</Button>
@@ -36,7 +54,7 @@ const Products = () => {
      
      
     
-      <Cta split />
+      {/* <Cta split /> */}
     </>
   );
 }

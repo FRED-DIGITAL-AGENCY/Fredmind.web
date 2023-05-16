@@ -12,13 +12,17 @@ function Pricing() {
   return (
     <>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div>
-        <br></br><h1 style={{color: "#5DD435"}} >Pricing</h1>
+      <h1 style={{color: "#5DD435"}} >Pricing</h1>
 
 
 
       <br></br><br></br><br></br>
         <h3>Pricing <span style={{color: "#5DD435"}}>plans</span></h3>
+
         <p>We are Offering Competitive Prices for Our Clients</p>
         <h4> <span style={{color: "#5DD435"}}> SOCIAL MEDIA </span>MANAGEMENT</h4>
     </div>
