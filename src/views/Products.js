@@ -13,7 +13,7 @@ import Cta from '../components/sections/Cta';
 const override: CSSProperties = {
   display: "flex",
   margin: "0 auto",
-  marginTop:"10px"
+  marginTop:"14px"
 };
 const Products = () => {
 	const [loading, setLoading] = useState(true);
@@ -37,7 +37,7 @@ onClick={()=> setLoading(!loading)}></Button>
 					loading={loading}
 					size={60}
 					cssOverride={override}
-					color="white"
+					color="#5DD435"
 					
 				/>
 
@@ -54,7 +54,7 @@ onClick={()=> setLoading(!loading)}></Button>
      
      
     
-      {/* <Cta split /> */}
+      <Cta split />
     </>
   );
 }
@@ -138,7 +138,7 @@ const HeroSection = styled.section`
 // `;
  const HeroText = styled.p`
 	margin-bottom: 35px;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 24px;
 	text-align: center;
 	letter-spacing: 2px;
