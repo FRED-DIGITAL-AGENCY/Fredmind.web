@@ -167,10 +167,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Content Creation
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Unlock creator monetization on your platform. Whether you want to become a creator using content, video, audio, photos, Animations or even text in blog articles. We develop unique content specific for you. Our team of highly-skilled creators  know how to spin the right words, spot the audience for you & put you out they for peak performance Share your thoughts & creativity. Unlock your Inner-Passion, Grow your community across Social Media to reach a larger audience. Build your Brand & business. 
                     </p>
                 </div>
               </div>
@@ -189,10 +189,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Social Media
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Discover the Power of Social Currency with Our Platform. Unlock the Potential to Monetize Your Business and Brand. With the Ability to Go Viral and Grow Your Presence on Facebook, Instagram, TikTok, Twitter, LinkedIn, and YouTube, You Can Gain a Competitive Edge. Our Team of Skilled Experts will Develop Unique Content Tailored to Your Needs and Help You Stand Out Across the Social Space, Identifying Your Target Audience and Enabling Peak Performance.
                     </p>
                 </div>
               </div>

@@ -105,9 +105,6 @@ const Usecases = () => {
         color: white;
       }
     `;
-    
-    
-
   return (
     <>
     <HeroSection>
@@ -121,7 +118,7 @@ const Usecases = () => {
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              {/* <HeroButton>Find more</HeroButton> */}
             </ButtonWrapper>
           </Container>
         </HeroSection>

@@ -36,7 +36,6 @@ onClick={()=> setLoading(!loading)}></Button>
 					<PacmanLoader
 					loading={loading}
 					size={60}
-					// cssOverride={override}
 					color="#5DD435"
 					
 				/>
