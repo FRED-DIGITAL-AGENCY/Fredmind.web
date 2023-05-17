@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useState, CSSProperties } from 'react';
+import { useState, } from 'react';
 import PacmanLoader from "react-spinners/PacmanLoader"
 import Image from '../components/elements/Image';
 // import sections
@@ -10,12 +10,12 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
-const override: CSSProperties = {
-  display: "flex",
-  margin: "0 auto",
-  marginTop:"14px"
-};
-const Products = () => {
+// const override: CSSProperties = {
+//   display: "flex",
+//   margin: "0 auto",
+//   marginTop:"14px"
+// };
+const Services = () => {
 	const [loading, setLoading] = useState(true);
   return (
     <>
@@ -31,12 +31,12 @@ onClick={()=> setLoading(!loading)}></Button>
                 width={896}
                 height={504} /> */}
       {/* <HeroImage className="pattern" src="./.././../../assets/images/hero-pattern=bg.png" /> */}
-				<MainHeading>Product</MainHeading>
+				<MainHeading>Services</MainHeading>
 				<HeroText>Coming soon
 					<PacmanLoader
 					loading={loading}
 					size={60}
-					cssOverride={override}
+					// cssOverride={override}
 					color="#5DD435"
 					
 				/>
@@ -59,7 +59,7 @@ onClick={()=> setLoading(!loading)}></Button>
   );
 }
 
-export default Products;
+export default Services;
 
 
 

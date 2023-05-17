@@ -10,7 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
-import Products from './views/Products';
+import Services from './views/Services';
 import UseCases from './views/Usecases';
 import Pricing from './views/Pricing';
 import Company from './views/Company'
@@ -45,7 +45,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-             <AppRoute exact path="/products" component={Products} layout={LayoutDefault} />
+             <AppRoute exact path="/Services" component={Services} layout={LayoutDefault} />
              <AppRoute exact path="/usecases" component={UseCases} layout={LayoutDefault} />
              <AppRoute exact path="/pricing" component={Pricing} layout={LayoutDefault} />
              <AppRoute exact path="/company" component={Company} layout={LayoutDefault} />
