@@ -16,15 +16,15 @@ function Pricing() {
       <br></br>
       <br></br>
       <div>
-      <h1 style={{color: "#5DD435"}} >Pricing</h1>
+      <h1 style={{color: "#34eb37"}} >Pricing</h1>
 
 
 
       <br></br><br></br><br></br>
-        <h3>Pricing <span style={{color: "#5DD435"}}>plans</span></h3>
+        <h3>Pricing <span style={{color: "#34eb37"}}>plans</span></h3>
 
         <p>We are Offering Competitive Prices for Our Clients</p>
-        <h4> <span style={{color: "#5DD435"}}> SOCIAL MEDIA </span>MANAGEMENT</h4>
+        <h4> <span style={{color: "#34eb37"}}> SOCIAL MEDIA </span>MANAGEMENT</h4>
     </div>
 
       <MainContainer>
