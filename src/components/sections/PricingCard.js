@@ -107,7 +107,7 @@ const PricingCard = ({
   
   const PriceContainer = styled.div`
     display: flex;
-    color:#5DD435;
+    color:#34eb37;
   `;
   const Price = styled.div`
     span {
@@ -127,7 +127,7 @@ const PricingCard = ({
     // width: 60%;
     text-align: center;
     font-weight: 100;
-    color:#5DD435;
+    color:#34eb37;
   `;
   
   const ButtonContainer = styled.div`
@@ -152,7 +152,7 @@ const PricingCard = ({
     cursor: pointer;
     transition: 0.3s ease-in-out;
     &:hover {
-      background-color:#5DD435;
+      background-color:#34eb37;
       color: #000;
     }
   `;
@@ -164,11 +164,11 @@ const PricingCard = ({
         display: flex;
         align-items: center;
         .true {
-          color: #34f034;
+          color: #34eb37;
           font-size: 1rem;
         }
         .false {
-          color: #f54343;
+          color: #34eb37;
         }
         svg {
           margin-right: 0.5rem;
