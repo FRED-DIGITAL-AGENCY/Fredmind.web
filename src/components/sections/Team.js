@@ -4,11 +4,13 @@ import Image from '../../assets/images/staff1.jpg'
 
 const Container = styled.div`
   padding: 5%;
+  
 `;
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 `;
 
 const Card = styled.div`
@@ -21,6 +23,7 @@ const Card = styled.div`
   align-items: flex-start;
   justify-content: center;
   align-items: center;
+  
 //   -webkit-box-shadow: 0px -1px 15px -5px #dad0d0;
 //   box-shadow: 0px 0px 0px -5px #a8a4a4;
 `;
@@ -30,12 +33,15 @@ const CardImage = styled.img`
   width: 100%;
   object-fit: cover;
   border-radius:20px;
+  
 
 `;
 
 const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  // background:red;
+  margin:-8.5px;
 `;
 const MemberName = styled.div`
   color: #fff;
@@ -45,6 +51,7 @@ const MemberName = styled.div`
 
 const TeamPosition = styled.div`
   color: #34eb37;
+  margin-bottom:100px;
 `;
 
 const Team = () => {
