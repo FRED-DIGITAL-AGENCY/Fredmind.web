@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a6a7d02f.chunk.css",
-    "main.js": "/static/js/main.e0d005d3.chunk.js",
-    "main.js.map": "/static/js/main.e0d005d3.chunk.js.map",
+    "main.js": "/static/js/main.bb6f409c.chunk.js",
+    "main.js.map": "/static/js/main.bb6f409c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8b9f84b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8b9f84b.js.map",
-    "static/js/2.d492a322.chunk.js": "/static/js/2.d492a322.chunk.js",
-    "static/js/2.d492a322.chunk.js.map": "/static/js/2.d492a322.chunk.js.map",
+    "static/js/2.8622440b.chunk.js": "/static/js/2.8622440b.chunk.js",
+    "static/js/2.8622440b.chunk.js.map": "/static/js/2.8622440b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.233ddb673c043a507190e4cec141c655.js": "/precache-manifest.233ddb673c043a507190e4cec141c655.js",
+    "precache-manifest.2b0e6ff89df983c7afd826fdb265b021.js": "/precache-manifest.2b0e6ff89df983c7afd826fdb265b021.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a6a7d02f.chunk.css.map": "/static/css/main.a6a7d02f.chunk.css.map",
-    "static/js/2.d492a322.chunk.js.LICENSE.txt": "/static/js/2.d492a322.chunk.js.LICENSE.txt",
+    "static/js/2.8622440b.chunk.js.LICENSE.txt": "/static/js/2.8622440b.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
     "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
     "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.bd39f304.svg",
@@ -22,13 +22,16 @@
     "static/media/features-split-image-01.png": "/static/media/features-split-image-01.17cc5dc0.png",
     "static/media/features-split-image-02.png": "/static/media/features-split-image-02.554c6357.png",
     "static/media/features-split-image-03.png": "/static/media/features-split-image-03.b91a35cd.png",
-    "static/media/hero-pattern-bg.png": "/static/media/hero-pattern-bg.531a7800.png",
-    "static/media/video-placeholder.jpg": "/static/media/video-placeholder.fdf015f9.jpg"
+    "static/media/mission (2).jpg": "/static/media/mission (2).f0422c41.jpg",
+    "static/media/staff1.jpg": "/static/media/staff1.e915d327.jpg",
+    "static/media/video-placeholder.jpg": "/static/media/video-placeholder.fdf015f9.jpg",
+    "static/media/video1.mp4": "/static/media/video1.ed44dc5d.mp4",
+    "static/media/vission.jpg": "/static/media/vission.d5e30b6e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b8b9f84b.js",
-    "static/js/2.d492a322.chunk.js",
+    "static/js/2.8622440b.chunk.js",
     "static/css/main.a6a7d02f.chunk.css",
-    "static/js/main.e0d005d3.chunk.js"
+    "static/js/main.bb6f409c.chunk.js"
   ]
 }
