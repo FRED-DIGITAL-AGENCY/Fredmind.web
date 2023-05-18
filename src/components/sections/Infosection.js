@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Image2 from '../../assets/images/mission (2).jpg'
-import Image3 from '../../assets/images/vission.jpg'
+import Image2 from '../../assets/images/vision.jpg'
+import Image3 from '../../assets/images/vision.jpg'
 
 const Container = styled.div`
 margin-top: 100px;
@@ -9,7 +9,8 @@ margin-bottom: 150px;
 margin-left: 40px;
   display: flex;
   border-radius:10px;
-  flex-direction: column;
+  font-family: 'Merriweather Sans', sans-serif;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   align-items: center;
@@ -29,13 +30,14 @@ const Left = styled.div`
 
 const Image = styled.img`
   width: 80%;
-  border-radius:0 50px;
+  border-radius: 50px;
 `;
 
 const Right = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items:center;
   justify-content: center;
   @media only screen and (max-width: 480px) {J
   }
@@ -57,34 +59,24 @@ const Infosection = () => {
   return (
     <>
     <Container>
-      {/* <Left>
+      <Left>
         <Image src={Image2} />
-      </Left> */}
+      </Left>
       <Right>
         <SubTitle>Our Mission</SubTitle>
         <Desc>
         Applying Our time, talent, tools and strategies to create systems, products and building brands people will love and use.
         </Desc>
-        {/* <Desc>
-          We care your business and guarantee you to achieve marketing goals.
-        </Desc> */}
-
       </Right>
       <Left>
+      <Image src={Image3} />
+      </Left>
+      <Right>
       <SubTitle>Our Vision</SubTitle>
        <Desc>
         Our vision is to be a household digital agency in Africa leading the frontier of technological advancement .
         </Desc>
-      </Left>
-      {/* <Right>
-        
-        <Image src={Image3} />
-        
-        <Desc>
-          We care your business and guarantee you to achieve marketing goals.
-        </Desc>
-
-      </Right> */}
+      </Right>
     </Container>
     </>
   );

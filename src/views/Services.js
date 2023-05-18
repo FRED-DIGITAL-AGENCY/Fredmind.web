@@ -18,7 +18,7 @@ const Services = () => {
 	
 <HeroSection>
 			<Container>
-				<MainHeading>Services</MainHeading>
+				<MainHeading>What We Do</MainHeading>
 				<HeroText>Coming soon
 				</HeroText>
 				<PacmanLoader
@@ -48,6 +48,7 @@ const MainHeading = styled.h1`
 	width: 100%;
 	letter-spacing: 4px;
   color: #34eb37;
+  font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 `;
 const Container = styled.div`
@@ -56,6 +57,7 @@ const Container = styled.div`
 	margin-right: auto;
 	flex-direction: column;
 	align-items: center;
+	font-family: 'Merriweather Sans', sans-serif;
 	justify-content: center;
 	display: flex;
 	margin-left: auto;
@@ -66,6 +68,7 @@ const Container = styled.div`
 `;
 const HeroSection = styled.section`
 	height: 100vh;
+
 	padding-top: clamp(60px, 25vh, 200px);
 `;
  const HeroText = styled.p`

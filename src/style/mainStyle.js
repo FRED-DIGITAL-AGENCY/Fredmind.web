@@ -7,12 +7,15 @@ export const MainHeading = styled.h1`
 	letter-spacing: 2px;
   	color:#34eb37;
 	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight:600;
 `;
 export const MainHeading2 = styled.h1`
 	font-size: clamp(2rem, 6vw, 2rem);
 	margin-bottom: 1rem;
 	letter-spacing: 1px;
   	color: #34eb37;
+	  font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 	
 `;
@@ -39,6 +42,7 @@ export const Container = styled.div`
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 50px;
+	font-family: 'Merriweather Sans', sans-serif;
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
 	}
@@ -57,6 +61,7 @@ export const HeroSection = styled.section`
 	margin-bottom: 35px;
 	font-size: 20px;
 	line-height: 24px;
+	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 	letter-spacing: 2px;
 	font-weight:400;

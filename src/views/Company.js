@@ -21,7 +21,7 @@ const Company = () => {
 		<VideoBg autoPlay loop muted src={Video} type='Video1/mp4' />
 	</HeroBg>
 			<Container>
-				<MainHeading>Company</MainHeading>
+				<MainHeading>Who We Are</MainHeading>
 				<HeroText>
         We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit .
 				</HeroText>
@@ -29,7 +29,7 @@ const Company = () => {
 		</HeroSection>
 		<Infosection />
 		<hr></hr>
-		  <MainHeading2>Meet our team</MainHeading2>
+		  <MainHeading2>Team of Creatives</MainHeading2>
 		  <HeroText>
 		  At FREDMIND, We're a team of creative Leaders who believe in the power of the word “IDEAS DON’T RULE THE WORLD, EXECUTED IDEAS DO”. We are operating a decentralized system. No politics, or unnecessary title-hoarding. We are obsessed with growth and providing digital solutions for businesses.	
 			</HeroText>
