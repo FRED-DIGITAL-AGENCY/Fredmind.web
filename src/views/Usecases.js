@@ -19,8 +19,9 @@ const Usecases = () => {
       margin-bottom: 2rem;
       width: 100%;
       letter-spacing: 4px;
-      color: #5DD435;
+      color: #34eb37;
       text-align: center;
+      font-family: 'Merriweather Sans', sans-serif;
     `;
     
     const Button = styled.button`
@@ -62,6 +63,7 @@ const Usecases = () => {
       max-width: 1300px;
       margin-right: auto;
       margin-left: auto;
+      font-family: 'Merriweather Sans', sans-serif;
       padding: 0 50px;
       @media screen and (max-width: 960px) {
         padding: 0 30px;

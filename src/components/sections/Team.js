@@ -4,6 +4,8 @@ import Image from '../../assets/images/staff1.jpg'
 
 const Container = styled.div`
   padding: 5%;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight:700;
   
 `;
 const Wrapper = styled.div`
@@ -17,7 +19,8 @@ const Card = styled.div`
   height: 350px;
   width: 280px;
   display: flex;
-  margin: 5%;
+  margin:5%;
+  margin-top:60px;
   border-radius:10px;
   flex-direction: column;
   align-items: flex-start;
@@ -33,10 +36,7 @@ const CardImage = styled.img`
   width: 100%;
   object-fit: cover;
   border-radius:20px;
-  
-
 `;
-
 const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
