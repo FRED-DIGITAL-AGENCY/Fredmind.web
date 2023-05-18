@@ -26,9 +26,6 @@ const Card = styled.div`
   align-items: flex-start;
   justify-content: center;
   align-items: center;
-  
-//   -webkit-box-shadow: 0px -1px 15px -5px #dad0d0;
-//   box-shadow: 0px 0px 0px -5px #a8a4a4;
 `;
 
 const CardImage = styled.img`
