@@ -1,11 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import Image from '../../assets/images/staff1.jpg'
+import Image1 from '../../assets/images/Yomi.jpg'
+import Image2 from '../../assets/images/emmy.jpg'
+import Image3 from '../../assets/images/Tomi.jpg'
+import Image4 from '../../assets/images/Fred.jpg'
+import Image5 from '../../assets/images/richard.jpg'
+import Image6 from '../../assets/images/K.jpg'
+
 
 const Container = styled.div`
   padding: 5%;
   font-family: 'Merriweather Sans', sans-serif;
-  font-weight:700;
+  
   
 `;
 const Wrapper = styled.div`
@@ -21,7 +27,6 @@ const Card = styled.div`
   display: flex;
   margin:5%;
   margin-top:60px;
-  border-radius:10px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -49,6 +54,7 @@ const MemberName = styled.div`
 const TeamPosition = styled.div`
   color: #34eb37;
   margin-bottom:100px;
+  text-align: center;
 `;
 
 const Team = () => {
@@ -59,45 +65,45 @@ const Team = () => {
       <Wrapper>
 
         <Card>
-          <CardImage src={Image} />
+          <CardImage src={Image1} />
           <TextWrapper>
-            <MemberName>John Doe</MemberName>
-            <TeamPosition>Marketing Specialist</TeamPosition>
+            <MemberName> Yomi Richard Dimeji</MemberName>
+            <TeamPosition>Digital Marketer/Marketing</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
-          <CardImage src={Image} />
+          <CardImage src={Image2} />
           <TextWrapper>
-            <MemberName>John Doe</MemberName>
-            <TeamPosition>Project Manager</TeamPosition>
+            <MemberName> Emmanuel Ochigbo</MemberName>
+            <TeamPosition>Senior Software Engineer/Engineering</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
-          <CardImage src={Image} />
+          <CardImage src={Image3} />
           <TextWrapper>
-            <MemberName>John Doe</MemberName>
-            <TeamPosition>Web Designer</TeamPosition>
+            <MemberName>Tominiyi Alabi</MemberName>
+            <TeamPosition>Digital Marketer/Marketing</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
-          <CardImage src={Image} />
+          <CardImage src={Image4} />
           <TextWrapper>
-            <MemberName>John Doe</MemberName>
-            <TeamPosition>Web Designer</TeamPosition>
+            <MemberName>Fred Ogbole</MemberName>
+            <TeamPosition>Founder + CEO/Marketing</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
-          <CardImage src={Image} />
+          <CardImage src={Image5} />
           <TextWrapper>
-            <MemberName>John Doe</MemberName>
-            <TeamPosition>Web Designer</TeamPosition>
+            <MemberName>Richard Dexter</MemberName>
+            <TeamPosition>Chief Technology Officer/Engineering</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
-          <CardImage src={Image} />
+          <CardImage src={Image6} />
           <TextWrapper>
-            <MemberName>John Doe</MemberName>
-            <TeamPosition>Web Designer</TeamPosition>
+            <MemberName>Olusegun Caleb</MemberName>
+            <TeamPosition>Software Engineer/Engineering</TeamPosition>
           </TextWrapper>
         </Card>
       </Wrapper>
