@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -124,6 +125,7 @@ const Header = ({
                      {/* <li>
                       <Link to="/blog" onClick={closeMenu}>Blog</Link>
                     </li> */}
+
                       <li>
                       <Link to="/WhoWeAre" onClick={closeMenu}>Who We Are</Link>
                     </li>
@@ -132,6 +134,22 @@ const Header = ({
                     <ul
                       className="list-reset header-nav-right"
                     >
+
+                    <li>
+
+ <Dropdown>
+      <Dropdown.Toggle variant="dark" id="dropdown-basic">
+        Dropdown Button
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+                    </li>
+
                       <li>
                         <Link to="School" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>School</Link>
                       </li>
