@@ -45,10 +45,10 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-             <AppRoute exact path="/Services" component={Services} layout={LayoutDefault} />
+             <AppRoute exact path="/WhatWeDo" component={Services} layout={LayoutDefault} />
              <AppRoute exact path="/usecases" component={UseCases} layout={LayoutDefault} />
              <AppRoute exact path="/pricing" component={Pricing} layout={LayoutDefault} />
-             <AppRoute exact path="/company" component={Company} layout={LayoutDefault} />
+             <AppRoute exact path="/WhoWeAre" component={Company} layout={LayoutDefault} />
              <AppRoute exact path="/blog" component={Blog} />
                <AppRoute exact path="/school" component={School} layout={LayoutDefault} />
         </Switch>
