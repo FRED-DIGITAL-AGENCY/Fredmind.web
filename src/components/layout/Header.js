@@ -4,6 +4,10 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -114,11 +118,69 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="/WhatWeDo" onClick={closeMenu}>What We Do</Link>
+                                <NavDropdown
+                                  id="nav-dropdown-dark-example"
+                                  title="What We Do"
+                                  menuVariant="dark"
+                                >
+                                  <NavDropdown.Item href="/Usecases">Action</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">
+                                    Another action
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">Something</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">
+                                    Separated link
+                                  </NavDropdown.Item>
+                                </NavDropdown>
+                    {/* <Dropdown>
+                            <Dropdown.Toggle menuVariant="dark" id="dropdown-basic">
+                             What We Do
+                            </Dropdown.Toggle>
+
+                            <Dropdown.Menu>
+                              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                            </Dropdown.Menu>
+                          </Dropdown> */}
+                          
                     </li>
                     <li>
-                      <Link to="/usecases" onClick={closeMenu}>Use Cases</Link>
+                    <NavDropdown
+                                  id="nav-dropdown-dark-example"
+                                  title="Use Cases"
+                                  menuVariant="dark"
+                                >
+                                  <NavDropdown.Item href="/Usecases">Action</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">
+                                    Another action
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">Something</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">
+                                    Separated link
+                                  </NavDropdown.Item>
+                                </NavDropdown>
+                    {/* <Dropdown>
+                            <Dropdown.Toggle menuVariant="dark" id="dropdown-basic">
+                             What We Do
+                            </Dropdown.Toggle>
+
+                            <Dropdown.Menu>
+                              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                            </Dropdown.Menu>
+                          </Dropdown> */}
                     </li>
+     
+      
+  
                        {/* <li>
                       <Link to="/pricing" onClick={closeMenu}>Pricing</Link>
                     </li> */}
@@ -134,22 +196,6 @@ const Header = ({
                     <ul
                       className="list-reset header-nav-right"
                     >
-
-                    <li>
-
- <Dropdown>
-      <Dropdown.Toggle variant="dark" id="dropdown-basic">
-        Dropdown Button
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-                    </li>
-
                       <li>
                         <Link to="School" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>School</Link>
                       </li>
