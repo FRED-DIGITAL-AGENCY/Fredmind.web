@@ -118,25 +118,25 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                    <Link to="/Usecases" onClick={closeMenu}>What We Do</Link>
+                    {/* <Link to="/Usecases" onClick={closeMenu}>What We Do</Link> */}
 
-                                {/* <NavDropdown
+                                <NavDropdown
                                   id="nav-dropdown-dark-example"
                                   title="What We Do"
                                   menuVariant="dark"
                                 >
-                                  <NavDropdown.Item href="/Usecases">Action</NavDropdown.Item>
+                                  <NavDropdown.Item href="/Usecases">Digital Marketing</NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/Usecases">
-                                    Another action
+                                    Website Development
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">Something</NavDropdown.Item>
+                                  <NavDropdown.Item href="/Usecases">Application Development</NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/Usecases">
-                                    Separated link
+                                  Branding
                                   </NavDropdown.Item>
-                                </NavDropdown> */}
+                                </NavDropdown>
                           
                     </li>
                     <li>
@@ -161,28 +161,13 @@ const Header = ({
                                   E-commerce
                                   </NavDropdown.Item>
                                 </NavDropdown>
-                    {/* <Dropdown>
-                            <Dropdown.Toggle menuVariant="dark" id="dropdown-basic">
-                             What We Do
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu>
-                              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                            </Dropdown.Menu>
-                          </Dropdown> */}
                     </li>
-     
-      
-  
                        {/* <li>
                       <Link to="/pricing" onClick={closeMenu}>Pricing</Link>
                     </li> */}
                      {/* <li>
                       <Link to="/blog" onClick={closeMenu}>Blog</Link>
                     </li> */}
-
                       <li>
                       <Link to="/WhoWeAre" onClick={closeMenu}>Who We Are</Link>
                     </li>
