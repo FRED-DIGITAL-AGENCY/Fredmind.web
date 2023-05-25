@@ -118,7 +118,9 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                                <NavDropdown
+                    <Link to="/Usecases" onClick={closeMenu}>What We Do</Link>
+
+                                {/* <NavDropdown
                                   id="nav-dropdown-dark-example"
                                   title="What We Do"
                                   menuVariant="dark"
@@ -134,18 +136,7 @@ const Header = ({
                                   <NavDropdown.Item href="/Usecases">
                                     Separated link
                                   </NavDropdown.Item>
-                                </NavDropdown>
-                    {/* <Dropdown>
-                            <Dropdown.Toggle menuVariant="dark" id="dropdown-basic">
-                             What We Do
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu>
-                              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                            </Dropdown.Menu>
-                          </Dropdown> */}
+                                </NavDropdown> */}
                           
                     </li>
                     <li>
@@ -154,16 +145,20 @@ const Header = ({
                                   title="Use Cases"
                                   menuVariant="dark"
                                 >
-                                  <NavDropdown.Item href="/Usecases">Action</NavDropdown.Item>
+                                  <NavDropdown.Item href="/Usecases">Creators</NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/Usecases">
-                                    Another action
+                                  Start-Ups
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">Something</NavDropdown.Item>
+                                  <NavDropdown.Item href="/Usecases">Professionals</NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/Usecases">
-                                    Separated link
+                                  SaaS
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/Usecases">
+                                  E-commerce
                                   </NavDropdown.Item>
                                 </NavDropdown>
                     {/* <Dropdown>
