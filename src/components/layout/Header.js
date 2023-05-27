@@ -125,15 +125,15 @@ const Header = ({
                                   title="What We Do"
                                   menuVariant="dark"
                                 >
-                                  <NavDropdown.Item href="/Usecases">Digital Marketing</NavDropdown.Item>
+                                  <NavDropdown.Item href="/DigitalMarketing">Digital Marketing</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">
+                                  <NavDropdown.Item href="/WebDev">
                                     Website Development
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">Application Development</NavDropdown.Item>
+                                  <NavDropdown.Item href="/AppDev">App Development</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">
+                                  <NavDropdown.Item href="/BrandingSection">
                                   Branding
                                   </NavDropdown.Item>
                                 </NavDropdown>
@@ -146,19 +146,19 @@ const Header = ({
                                   title="Use Cases"
                                   menuVariant="dark"
                                 >
-                                  <NavDropdown.Item href="/Usecases">Creators</NavDropdown.Item>
+                                  <NavDropdown.Item href="/Creators">Creators</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">
+                                  <NavDropdown.Item href="/Startup">
                                   Start-Ups
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">Professionals</NavDropdown.Item>
+                                  <NavDropdown.Item href="/Professional">Professionals</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">
+                                  <NavDropdown.Item href="/Saas">
                                   SaaS
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Usecases">
+                                  <NavDropdown.Item href="/Ecommerce">
                                   E-commerce
                                   </NavDropdown.Item>
                                 </NavDropdown>
