@@ -3,19 +3,11 @@ import styled from "styled-components";
 import Image2 from '../../assets/images/vision.jpg'
 import Image3 from '../../assets/images/vision.jpg'
 
+
 const Container = styled.div`
-margin-top: 100px;
-margin-bottom: 150px;
-// background-color:#fff;
-margin: 40px;
-  display: flex;
+  margin: 40px;
   border-radius:10px;
   font-family: 'Merriweather Sans', sans-serif;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
-    
   }
 `;
 const Wrapper = styled.div`
@@ -25,7 +17,6 @@ const Wrapper = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   align-items: center;
   @media only screen and (max-width: 480px) {

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
 // import sections
 // import Hero from '../components/sections/Hero';
 // import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -91,9 +92,9 @@ const AppDev = () => {
     `;
     
     const HeroButton = styled(Button)`
-      color: #fff;
+      color:#000;
       &:before {
-        background-color: #5DD435;
+        background-color: #34eb37;
         height: 500%;
         
       }
@@ -117,13 +118,22 @@ const AppDev = () => {
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Build an App</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
-         
-         
-        
+        <Container4>
+      <Wrapper>
+      <Left>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis  lorerzsmmm
+      </Left>
+      <Right>
+        <Desc>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container4>
           {/* <Cta split /> */}
         </>
   )

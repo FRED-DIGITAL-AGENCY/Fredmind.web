@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
 
 const WebDev = () => {
        //STYLED COMPONENTS
@@ -83,9 +84,9 @@ const WebDev = () => {
      `;
      
      const HeroButton = styled(Button)`
-       color: #fff;
+       color: #000;
        &:before {
-         background-color: #5DD435;
+         background-color: #34eb37;
          height: 500%;
          
        }
@@ -113,7 +114,18 @@ const WebDev = () => {
             </ButtonWrapper>
           </Container>
         </HeroSection>
-         
+        <Container4>
+      <Wrapper>
+      <Left>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis  lorerzsmmm
+      </Left>
+      <Right>
+        <Desc>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container4>
          
         
           {/* <Cta split /> */}

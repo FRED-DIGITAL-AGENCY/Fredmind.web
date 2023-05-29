@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaTwitter, FaLinkedin } from 'react-icons/fa'
 import Image1 from '../../assets/images/Yomi.jpg'
 import Image2 from '../../assets/images/emmy.jpg'
 import Image3 from '../../assets/images/Tomi.jpg'
@@ -14,12 +15,22 @@ const Container = styled.div`
   
   
 `;
+
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   
 `;
+const Icon = styled.div`
+  // width: '1.4rem';
+  margin-left:5px;
+  display:flex;
+  &:hover{
+    cursor:pointer;
+  }
+  
+`
 
 const Card = styled.div`
   height: 350px;
@@ -53,7 +64,7 @@ const MemberName = styled.div`
 
 const TeamPosition = styled.div`
   color: #34eb37;
-  margin-bottom:100px;
+  margin-bottom:20px;
   text-align: center;
 `;
 
@@ -67,9 +78,16 @@ const Team = () => {
         <Card>
           <CardImage src={Image1} />
           <TextWrapper>
-            <MemberName> Yomi Richard Dimeji</MemberName>
+            <MemberName> Yomi Richard</MemberName>
+            
             <TeamPosition>Digital Marketer</TeamPosition>
           </TextWrapper>
+  
+            <Icon>
+								<FaTwitter />
+								<FaLinkedin />
+							</Icon>
+
         </Card>
         <Card>
           <CardImage src={Image2} />
@@ -77,6 +95,10 @@ const Team = () => {
             <MemberName> Emmanuel Ochigbo</MemberName>
             <TeamPosition>Senior Software Engineer</TeamPosition>
           </TextWrapper>
+          <Icon>
+								<FaTwitter />
+								<FaLinkedin />
+							</Icon>
         </Card>
         <Card>
           <CardImage src={Image3} />
@@ -84,6 +106,10 @@ const Team = () => {
             <MemberName>Tominiyi Alabi</MemberName>
             <TeamPosition>Digital Marketer</TeamPosition>
           </TextWrapper>
+          <Icon>
+								<FaTwitter />
+								<FaLinkedin />
+							</Icon>
         </Card>
         <Card>
           <CardImage src={Image4} />
@@ -91,6 +117,10 @@ const Team = () => {
             <MemberName>Fred Ogbole</MemberName>
             <TeamPosition>Founder + CEO</TeamPosition>
           </TextWrapper>
+          <Icon>
+								<FaTwitter />
+								<FaLinkedin />
+							</Icon>
         </Card>
         <Card>
           <CardImage src={Image5} />
@@ -98,6 +128,10 @@ const Team = () => {
             <MemberName>Richard Dexter</MemberName>
             <TeamPosition>Chief Technology Officer</TeamPosition>
           </TextWrapper>
+          <Icon>
+								<FaTwitter />
+								<FaLinkedin />
+							</Icon>
         </Card>
         <Card>
           <CardImage src={Image6} />
@@ -105,6 +139,10 @@ const Team = () => {
             <MemberName>Olusegun Caleb</MemberName>
             <TeamPosition>Software Engineer</TeamPosition>
           </TextWrapper>
+          <Icon>
+								<FaTwitter />
+								<FaLinkedin />
+							</Icon>
         </Card>
       </Wrapper>
     </Container>

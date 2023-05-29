@@ -128,7 +128,7 @@ const Header = ({
                                   <NavDropdown.Item href="/DigitalMarketing">Digital Marketing</NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/WebDev">
-                                    Website Development
+                                    Web Development
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/AppDev">App Development</NavDropdown.Item>
