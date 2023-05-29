@@ -107,7 +107,8 @@ const DigitalMarketing = () => {
           <Container>
             <MainHeading>Digital Marketing</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            We explode companies online presence help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit.
+
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">

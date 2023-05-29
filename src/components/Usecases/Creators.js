@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/usecases.style";
 
 const Creators = () => {
      //STYLED COMPONENTS
@@ -105,18 +106,42 @@ const Creators = () => {
           <Container>
             <MainHeading>Creators</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            Dear Digital Creators,
+Unlock creator monetization on your platform
+Whether you want to become a creator using content, video, audio, photos or even text in blog articles. We develop unique content specific for you. Our team of highly-skilled creators  know how to spin the right words, spot the audience for you & put you out they for peak performance
+Share your thoughts, creativity. Unlock your Inner-Passion, Grow your community across Social Media to reach a larger audience. Build your Brand & business. 
+Saving you time, money and stress.
+<br></br><br></br>
+Where Creators build the future
+
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Become a Creator</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
          
-         
+        <Container2>
+      <Wrapper>
+      <Left>
+        <SubTitle>THE PROBLEM</SubTitle> <br></br>
+        {/* <Image src={Image2} /> */}
+        African Creators are constantly faced with limitations of Consistently creating Quality Content be it on Youtube, Facebook, Instagram, Linkedin, Tiktok, etc ranging from content, video, audio, photos or even text in blog articles. Doing what you love without geographical restriction.
+      </Left>
+      <Right>
+        <SubTitle>THE SOLUTION</SubTitle>
+        <Desc>
+        Become a creator leveraging on  easy-to-use tools and strategies workable globally. As a creator, your location should not be the reason you lose opportunities. With us, We Provide our time, talent & expertise, enjoy the accolade, you can achieve this from  anywhere
+We go beyond enabling content creation for you, but make sure your clients stay
+
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container2>
+    
         
           {/* <Cta split /> */}
         </>

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/usecases.style";
 
 const Saas = () => {
      //STYLED COMPONENTS
@@ -105,17 +106,32 @@ const Saas = () => {
                <br></br>
                <br></br> (Software as a Service) </MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            Dear Software Providers,
+Roadmaps to Scaling your products and softwares with easy-to-use solutions crucial for product-led business growth, Position & Scale your product in the market providing borderless transactions.
+
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Start your Journey</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
-         
+        <Container2>
+      <Wrapper>
+      <Left><SubTitle>THE PROBLEM</SubTitle> <br></br>
+        {/* <Image src={Image2} /> */}
+        African Products & Businesses have experienced challenges on product visibility, Reach and revenue. From bookkeeping to managing multiple transactions and financial affairs of your business. 
+      </Left>
+      <Right>
+        <SubTitle>THE SOLUTION</SubTitle>
+        <Desc>
+        At FREDMIND, We are disciplined and focus on providing end-to-end financial structure that enable you to monitor and secure your growth journey anywhere in the world.   
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container2>
          
         
           {/* <Cta split /> */}

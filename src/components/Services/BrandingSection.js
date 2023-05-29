@@ -105,7 +105,7 @@ const BrandingSection = () => {
           <Container>
             <MainHeading>Branding</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            Harnessing the power of Branding online requires understanding why people talk and why some things get talked about and shared more than others. The psychology of sharing. The science of social transmission.
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">

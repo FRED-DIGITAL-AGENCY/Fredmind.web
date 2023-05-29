@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/usecases.style";
 
 const Startup = () => {
      //STYLED COMPONENTS
@@ -103,18 +104,38 @@ const Startup = () => {
           <Container>
             <MainHeading>Start-Ups</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            Dear Entrepreneurs,
+
+We are Bridging The Gap Between You & Your Customers by providing a glove-fit solution tailored towards your business growth & Sales 
+
+Accelerating Growth formula for you 
+
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Start a Project</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
          
-         
+        <Container2>
+      <Wrapper>
+      <Left><SubTitle>THE PROBLEM</SubTitle> <br></br>
+        {/* <Image src={Image2} /> */}
+        African Businesses & Entrepreneurs are constantly faced with several business limitations ranging from Structure, Sales,  Growth and scalability. Entrepreneurs struggle with reaching larger audiences because of structure and Sales.
+      </Left>
+      <Right>
+        <SubTitle>THE SOLUTION</SubTitle>
+        <Desc>
+        At FREDMIND, we constantly look for innovative ways to solve these problems. Accelerating the end-to-end growth formula for individuals and businesses is the core of what we do and why we exist. We provide powerful business tools to enable you to sell more to reach your customers anywhere in the world. Whatever service you provide. We make Sales possible for you.
+
+
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container2>
         
           {/* <Cta split /> */}
         </>

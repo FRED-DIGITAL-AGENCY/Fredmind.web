@@ -112,7 +112,7 @@ const AppDev = () => {
           <Container>
             <MainHeading>Application<br></br><br></br>Development</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            We build fast, responsive and device friendly apps deployed with the best KPI’s for efficiency and productivity. We love innovation and bring ideas to reality by applying holistic approaches to achieve results.
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
@@ -120,8 +120,10 @@ const AppDev = () => {
               </Link> */}
               <HeroButton>Build an App</HeroButton>
             </ButtonWrapper>
+            
           </Container>
         </HeroSection>
+        <br></br> <br></br><br></br>
         <Container4>
       <Wrapper>
       <Left>

@@ -104,7 +104,7 @@ const WebDev = () => {
           <Container>
             <MainHeading>Website<br></br><br></br>Development</MainHeading>
             <HeroText>
-            adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
@@ -114,6 +114,7 @@ const WebDev = () => {
             </ButtonWrapper>
           </Container>
         </HeroSection>
+        <br></br> <br></br><br></br>
         <Container4>
       <Wrapper>
       <Left>

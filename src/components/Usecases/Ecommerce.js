@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/usecases.style";
 
 const Ecommerce = () => {
      //STYLED COMPONENTS
@@ -103,18 +104,35 @@ const Ecommerce = () => {
           <Container>
             <MainHeading>E-commerce</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            Dear Merchants,
+Achieving an effective industry customer experience for your e-commerce store from anywhere. Shifting the consumer-brand relationship. The evolving customer experience will be driven not by the brand, but by a customer empowered in their choices.
+
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Sell like Crazy</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
          
-         
+        <Container2>
+      <Wrapper>
+      <Left><SubTitle>THE PROBLEM</SubTitle> <br></br>
+        {/* <Image src={Image2} /> */}
+        People experience or user/customer experience is key to a successful e-Commerce website. Shoppers expect a similar if not same experience as one they would get in a brick and mortar store. The flow of the website, the segmentation of the website and the retail personalization of products based on the shopper’s preferences are imperative. Merchants and e-commerce stores now want to leverage the easy-to-use  tools and adopt borderless traffic.
+      </Left>
+      <Right>
+        <SubTitle>THE SOLUTION</SubTitle>
+        <Desc>
+        At FREDMIND, We open your e-commerce store to a world of possibilities by providing the tools and framework to enjoy seamless traffic. With our easy-to-use tools and software,  Let your customers pay you the easy way with People's experience.
+Providing tailored experiences based on geography or contextual placements is a great starting point to building more sophisticated use cases
+    
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container2>
         
           {/* <Cta split /> */}
         </>

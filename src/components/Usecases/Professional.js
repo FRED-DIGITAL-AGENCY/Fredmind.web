@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/usecases.style";
 
 const Professional = () => {
      //STYLED COMPONENTS
@@ -103,17 +104,33 @@ const Professional = () => {
           <Container>
             <MainHeading>Professionals</MainHeading>
             <HeroText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+            Dear Professionals,
+Small and Medium-sized Enterprises (SMEs) are powerful, profitable and sustainable when there's business structure. Digital Tools, Platforms and Channels  help you operate and manage your clients from anywhere, to enable focus on providing value.
+
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Ready to scale</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
-         
+        <Container2>
+      <Wrapper>
+      <Left><SubTitle>THE PROBLEM</SubTitle> <br></br>
+        {/* <Image src={Image2} /> */}
+        Your ability to intentionally track your daily expenses, draw a monthly budget and map out your revenue streams and operational cost with proper structuring is the beginning of sustainable and successful business anywhere across the world. The conventional way has always been a hassle to professionals. 
+      </Left>
+      <Right>
+        <SubTitle>THE SOLUTION</SubTitle>
+        <Desc>
+        Professional, We set up proper management structure, increase your revenue and reduce operational cost, set up the right pricing for your product and services, coordinate your customer journey through sales funnels  and focus on providing tools that enable you to manage your growth journey anywhere in the world.
+
+        </Desc>
+      </Right>
+      </Wrapper>
+    </Container2>
          
         
           {/* <Cta split /> */}
