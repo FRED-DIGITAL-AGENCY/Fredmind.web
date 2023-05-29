@@ -8,7 +8,7 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
-import {HeroSection, HeroBg, VideoBg, Container,MainHeading,MainHeading2, HeroText} from "../../src/style/mainStyle";
+import {HeroSection, HeroBg, VideoBg, Container,MainHeading,MainHeading2, HeroText, HeroText2, Line} from "../../src/style/mainStyle";
 
 const Company = () => {
 
@@ -23,17 +23,19 @@ const Company = () => {
 			<Container>
 				<MainHeading>Who We Are</MainHeading>
 				<HeroText>
-        We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit .
+        We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit.
 				</HeroText>
 			</Container>
 		</HeroSection>
-		<Infosection />
-		<hr></hr>
 		  <MainHeading2>Team of Creatives</MainHeading2>
-		  <HeroText>
+		  <HeroText2>
 		  At FREDMIND, We're a team of creative Leaders who believe in the power of the word “IDEAS DON’T RULE THE WORLD, EXECUTED IDEAS DO”. We are operating a decentralized system. No politics, or unnecessary title-hoarding. We are obsessed with growth and providing digital solutions for businesses.	
-			</HeroText>
+			</HeroText2>
 		    <Team />
+
+			<Line></Line>
+			<br></br>
+			<Infosection />
 		<br></br>
 		<br></br>
      

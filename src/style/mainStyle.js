@@ -64,6 +64,21 @@ export const HeroSection = styled.section`
 	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 	letter-spacing: 2px;
-	font-weight:400;
-	color: #fff;
+	font-weight:600;
+	// color: #fff;
+`;
+export const HeroText2 = styled.p`
+margin-bottom: 35px;
+font-size: 25px;
+line-height: 34px;
+font-family: 'Merriweather Sans', sans-serif;
+text-align: center;
+letter-spacing: 1px;
+font-weight:400;
+`;
+export const Line = styled.hr`
+border: 0;
+height: 1px;
+background: #333;
+background-image: linear-gradient(to right, #ccc, #333, #ccc);
 `;

@@ -46,7 +46,7 @@ const TextWrapper = styled.div`
   margin:-8.5px;
 `;
 const MemberName = styled.div`
-  color: #fff;
+  // color: #fff;
   text-align: center;
   padding: 2% 2%;
 `;
@@ -68,42 +68,42 @@ const Team = () => {
           <CardImage src={Image1} />
           <TextWrapper>
             <MemberName> Yomi Richard Dimeji</MemberName>
-            <TeamPosition>Digital Marketer/Marketing</TeamPosition>
+            <TeamPosition>Digital Marketer</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
           <CardImage src={Image2} />
           <TextWrapper>
             <MemberName> Emmanuel Ochigbo</MemberName>
-            <TeamPosition>Senior Software Engineer/Engineering</TeamPosition>
+            <TeamPosition>Senior Software Engineer</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
           <CardImage src={Image3} />
           <TextWrapper>
             <MemberName>Tominiyi Alabi</MemberName>
-            <TeamPosition>Digital Marketer/Marketing</TeamPosition>
+            <TeamPosition>Digital Marketer</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
           <CardImage src={Image4} />
           <TextWrapper>
             <MemberName>Fred Ogbole</MemberName>
-            <TeamPosition>Founder + CEO/Marketing</TeamPosition>
+            <TeamPosition>Founder + CEO</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
           <CardImage src={Image5} />
           <TextWrapper>
             <MemberName>Richard Dexter</MemberName>
-            <TeamPosition>Chief Technology Officer/Engineering</TeamPosition>
+            <TeamPosition>Chief Technology Officer</TeamPosition>
           </TextWrapper>
         </Card>
         <Card>
           <CardImage src={Image6} />
           <TextWrapper>
             <MemberName>Olusegun Caleb</MemberName>
-            <TeamPosition>Software Engineer/Engineering</TeamPosition>
+            <TeamPosition>Software Engineer</TeamPosition>
           </TextWrapper>
         </Card>
       </Wrapper>
