@@ -86,7 +86,7 @@ const Startup = () => {
    const HeroButton = styled(Button)`
      color: #fff;
      &:before {
-       background-color: #5DD435;
+       background-color: #34eb37;
        height: 500%;
        
      }

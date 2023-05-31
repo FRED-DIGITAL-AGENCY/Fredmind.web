@@ -106,8 +106,9 @@ const Creators = () => {
           <Container>
             <MainHeading>Creators</MainHeading>
             <HeroText>
-            Dear Digital Creators,
-Unlock creator monetization on your platform
+            Dear Digital Creators <br></br><br></br>
+Unlock creator monetization on your platform.
+<br></br>
 Whether you want to become a creator using content, video, audio, photos or even text in blog articles. We develop unique content specific for you. Our team of highly-skilled creators  know how to spin the right words, spot the audience for you & put you out they for peak performance
 Share your thoughts, creativity. Unlock your Inner-Passion, Grow your community across Social Media to reach a larger audience. Build your Brand & business. 
 Saving you time, money and stress.
@@ -123,7 +124,7 @@ Where Creators build the future
             </ButtonWrapper>
           </Container>
         </HeroSection>
-         
+        <br></br><br></br><br></br><br></br>
         <Container2>
       <Wrapper>
       <Left>
@@ -141,7 +142,7 @@ We go beyond enabling content creation for you, but make sure your clients stay
       </Right>
       </Wrapper>
     </Container2>
-    
+              
         
           {/* <Cta split /> */}
         </>

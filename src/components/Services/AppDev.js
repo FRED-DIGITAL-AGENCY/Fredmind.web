@@ -79,8 +79,8 @@ const AppDev = () => {
       font-size: 20px;
       line-height: 24px;
       text-align: start;
-      letter-spacing: 2px;
-      color: #fff;
+      // letter-spacing: 2px;
+      // color: #fff;
     `;
     
      const ButtonWrapper = styled.div`
@@ -105,6 +105,67 @@ const AppDev = () => {
         color: white;
       }
     `;
+    const FeatureSection = styled.section`
+    height: 100vh;
+    font-weight:700;
+    margin:30px;
+    padding-top: clamp(70px, 25vh, 220px);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    @media only screen and (max-width: 480px) {
+     display:flex;
+     flex-direction :column;
+ 
+     
+     }
+
+  `;
+  const FeatureText = styled.p`
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+  letter-spacing: 2px;
+  color: #fff;
+`;
+const FeatureBoxContainer = styled.div`
+    
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     height: 350px;
+ width: 280px;
+ margin:5%;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ @media only screen and (max-width: 480px) {
+   // padding: 30px 20px;
+   width: 180px;
+   display:flex;
+   margin-right:190px;
+   
+ }
+`;
+
+const FeatureBox = styled.div`
+// width: 50%;
+ border:2px solid #fff;
+ padding:50px;
+ border-radius:5px;
+ text-align:center;
+      margin:5px;
+`;
+const FeatureBox2 = styled.div`
+// width: 50%;
+ background-color:#34eb37;
+ padding:50px;
+ border-radius:5px;
+ text-align:center;
+      margin:5px;
+      
+`;
   return (
     <>
     <HeroSection>
@@ -136,6 +197,15 @@ const AppDev = () => {
       </Right>
       </Wrapper>
     </Container4>
+    <FeatureSection>
+            <FeatureText>lorem ipsum</FeatureText>
+            <FeatureBoxContainer>
+              <FeatureBox>lorem ipsum</FeatureBox>
+              <FeatureBox2>lorem ipsum</FeatureBox2>
+              <FeatureBox2>lorem ipsum</FeatureBox2>
+              <FeatureBox>lorem ipsum</FeatureBox>
+            </FeatureBoxContainer>
+         </FeatureSection>
           {/* <Cta split /> */}
         </>
   )

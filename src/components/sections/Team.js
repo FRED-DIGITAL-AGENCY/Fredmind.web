@@ -22,16 +22,22 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   
 `;
+const IconBox = styled.div`
+  display:flex;
+  justify-content: center;
+`
+;
 const Icon = styled.div`
   // width: '1.4rem';
-  margin-left:5px;
+  margin:20px;
   display:flex;
+  justify-content: center;
+ align-items:cnter;
   &:hover{
     cursor:pointer;
   }
   
-`
-
+`;
 const Card = styled.div`
   height: 350px;
   width: 280px;
@@ -82,12 +88,14 @@ const Team = () => {
             
             <TeamPosition>Digital Marketer</TeamPosition>
           </TextWrapper>
-  
-            <Icon>
+          <IconBox>
+               <Icon>
 								<FaTwitter />
+                </Icon>
+                <Icon>
 								<FaLinkedin />
-							</Icon>
-
+                </Icon>
+							</IconBox>
         </Card>
         <Card>
           <CardImage src={Image2} />
@@ -95,10 +103,14 @@ const Team = () => {
             <MemberName> Emmanuel Ochigbo</MemberName>
             <TeamPosition>Senior Software Engineer</TeamPosition>
           </TextWrapper>
-          <Icon>
+            <IconBox>
+               <Icon>
 								<FaTwitter />
+                </Icon>
+                <Icon>
 								<FaLinkedin />
-							</Icon>
+                </Icon>
+							</IconBox>
         </Card>
         <Card>
           <CardImage src={Image3} />
@@ -106,10 +118,14 @@ const Team = () => {
             <MemberName>Tominiyi Alabi</MemberName>
             <TeamPosition>Digital Marketer</TeamPosition>
           </TextWrapper>
-          <Icon>
+          <IconBox>
+               <Icon>
 								<FaTwitter />
+                </Icon>
+                <Icon>
 								<FaLinkedin />
-							</Icon>
+                </Icon>
+							</IconBox>
         </Card>
         <Card>
           <CardImage src={Image4} />
@@ -117,10 +133,14 @@ const Team = () => {
             <MemberName>Fred Ogbole</MemberName>
             <TeamPosition>Founder + CEO</TeamPosition>
           </TextWrapper>
-          <Icon>
+            <IconBox>
+               <Icon>
 								<FaTwitter />
+                </Icon>
+                <Icon>
 								<FaLinkedin />
-							</Icon>
+                </Icon>
+							</IconBox>
         </Card>
         <Card>
           <CardImage src={Image5} />
@@ -128,10 +148,14 @@ const Team = () => {
             <MemberName>Richard Dexter</MemberName>
             <TeamPosition>Chief Technology Officer</TeamPosition>
           </TextWrapper>
-          <Icon>
+          <IconBox>
+               <Icon>
 								<FaTwitter />
+                </Icon>
+                <Icon>
 								<FaLinkedin />
-							</Icon>
+                </Icon>
+							</IconBox>
         </Card>
         <Card>
           <CardImage src={Image6} />
@@ -139,10 +163,14 @@ const Team = () => {
             <MemberName>Olusegun Caleb</MemberName>
             <TeamPosition>Software Engineer</TeamPosition>
           </TextWrapper>
-          <Icon>
+          <IconBox>
+               <Icon>
 								<FaTwitter />
+                </Icon>
+                <Icon>
 								<FaLinkedin />
-							</Icon>
+                </Icon>
+							</IconBox>
         </Card>
       </Wrapper>
     </Container>

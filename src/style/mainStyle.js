@@ -123,17 +123,14 @@ export const HeroSection = styled.section`
 	line-height: 24px;
 	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
-	letter-spacing: 2px;
 	font-weight:600;
 	// color: #fff;
 `;
 export const HeroText2 = styled.p`
 margin-bottom: 35px;
-font-size: 25px;
+font-size: 22px;
 line-height: 34px;
 font-family: 'Merriweather Sans', sans-serif;
-text-align: center;
-letter-spacing: 1px;
 font-weight:400;
 `;
 export const Line = styled.hr`
