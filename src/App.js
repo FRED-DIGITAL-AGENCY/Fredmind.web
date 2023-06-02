@@ -8,12 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Layouts
 
 import LayoutDefault from './layouts/LayoutDefault';
-// Section
+// Services
 
 import AppDev from './components/Services/AppDev'
 import WebDev from './components/Services/WebDev'
 import BrandingSection from './components/Services/BrandingSection'
 import DigitalMarketing from './components/Services/DigitalMarketing'
+import SEO from './components/Services/SEO'
 // Use Cases
 import Startup from './components/Usecases/Startup'
 import Professional from './components/Usecases/Professional'
@@ -71,6 +72,7 @@ const App = () => {
                <AppRoute exact path="/BrandingSection" component={BrandingSection} layout={LayoutDefault} />
                <AppRoute exact path="/WebDev" component={WebDev} layout={LayoutDefault} />
                <AppRoute exact path="/AppDev" component={AppDev} layout={LayoutDefault} />
+               <AppRoute exact path="/SEO" component={SEO} layout={LayoutDefault} />
                {/* UseCases */}
                <AppRoute exact path="/Ecommerce" component={Ecommerce} layout={LayoutDefault} />
                <AppRoute exact path="/Professional" component={Professional} layout={LayoutDefault} />

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// SERVICE AND USECASE STYLED COMPONENTS
+// SERVICE STYLED COMPONENTS
 
 export const Container4 = styled.div`
  
@@ -23,10 +23,10 @@ export const Wrapper = styled.div`
 `;
 export const Left = styled.div`
   width: 50%;
-  border:2px solid #fff;
+  box-shadow:-10px 5px 20px 10px #000;
   padding:50px;
   border-radius:5px;
-  text-align:center;
+  text-align:start;
  
   @media only screen and (max-width: 480px) {
 	padding: 30px 20px;
@@ -37,8 +37,8 @@ export const Left = styled.div`
 export const Right = styled.div`
   width: 40%;
   margin-left:5px;
-  text-align:center;
-  padding:50px;
+  text-align:left;
+  padding:40px;
   border-radius:5px;
   color:#000;
   background-color:#34eb37;

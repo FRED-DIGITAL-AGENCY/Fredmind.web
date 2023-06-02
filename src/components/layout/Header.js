@@ -136,7 +136,12 @@ const Header = ({
                                   <NavDropdown.Item href="/BrandingSection">
                                   Branding
                                   </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/SEO">
+                                  SEO Services
+                                  </NavDropdown.Item>
                                 </NavDropdown>
+                                
                                 
                           
                     </li>

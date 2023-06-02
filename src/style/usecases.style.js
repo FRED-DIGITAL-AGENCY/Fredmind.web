@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
 `;
 export const Left = styled.div`
 width: 50%;
-border:2px solid #fff;
+box-shadow:-10px 5px 20px 10px #000;
 padding:50px;
 border-radius:5px;
 text-align:center;

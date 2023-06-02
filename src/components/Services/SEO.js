@@ -3,13 +3,15 @@ import styled from 'styled-components';
 import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
 
 
-const WebDev = () => {
+
+
+const SEO = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2.3rem, 6vw, 4.5rem);
+       font-size: clamp(2rem, 3vw, 3.5rem);
        margin-bottom: 2rem;
        width: 100%;
-       letter-spacing: 4px;
+       letter-spacing: 2px;
        color: #34eb37;
        text-align: start;
        font-family: 'Merriweather Sans', sans-serif;
@@ -66,7 +68,7 @@ const WebDev = () => {
        height: 100vh;
        font-weight:700;
        padding-top: clamp(70px, 25vh, 220px);
-       color:#7e807f;
+      
      `;
       const HeroText = styled.p`
        margin-bottom: 35px;
@@ -74,7 +76,7 @@ const WebDev = () => {
        line-height: 24px;
        text-align: start;
       //  letter-spacing: 2px;
-      //  color: #fff;
+       color: #7e807f;
      `;
      
       const ButtonWrapper = styled.div`
@@ -131,11 +133,11 @@ const WebDev = () => {
    
  `;
  const FeatureText2  = styled.p`
- font-size: 18px;
+ font-size: 16px;
  line-height:20px;
  text-align: start;
- letter-spacing: 2px;
- 
+ letter-spacing: 1px;
+
 `;
  const FeatureBoxContainer = styled.div`
       display: flex;
@@ -161,10 +163,10 @@ const WebDev = () => {
  const FeatureBox = styled.div`
  width: 200px;
  height:200px;
- box-shadow:-10px 5px 20px 10px #000;
   padding:50px;
   border-radius:5px;
-  display:flex;
+  display:flex;  
+  box-shadow:-10px 5px 20px 10px #000;
   text-align:center;
        margin:5px;
 `;
@@ -185,27 +187,29 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Website<br></br><br></br>Development</MainHeading>
+            <MainHeading>Boost Your Online Visibility - Expert Search Engine Optimization (SEO) Services for Outstanding Results! 
+</MainHeading>
             <HeroText>
-            We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
+            In a digital world driven by search engines, the key to success depends on securing top rankings, dominating search engine results, attract targeted traffic and skyrocket your online visibility.
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Start a Project</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
-        <br></br> <br></br><br></br>
-        <Container4>
+           <Container4>
       <Wrapper>
       <Left>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis  lorerzsmmm
+      Catapult Your Website to the Top - Unleash the Power of Search Engine Optimization!
+
       </Left>
       <Right>
         <Desc>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        -Our cutting-edge Search Engine Optimization (SEO) solutions are designed to propel your website to new heights.<hr></hr>  We understand that SEO is not just about optimizing for search engines; it's about delivering a remarkable user experience, providing valuable content, and outranking your competition
+
         </Desc>
       </Right>
       </Wrapper>
@@ -214,20 +218,40 @@ color:#000;
           <FeatureContainer>
             <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
             <FeatureText2>
-            Lorem ipsum dolor sit amet, consectetur adipi<span style={{color: "#34eb37"}}>  Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis</span> ondimentum sem mi, quis
+            With our team of SEO experts by your side, we'll dive deep into your website, conducting comprehensive keyword research and analyzing your competitors. Armed with this invaluable knowledge, we'll optimize your website's on-page elements, ensuring every tag, heading, and piece of content aligns with search engine algorithms and captivates your audience.
+
+<span style={{color: "#34eb37"}}>Our SEO prowess extends beyond on-page optimization. We'll craft a strategic off-page SEO plan, building high-quality backlinks and establishing your brand as a trusted authority in your industry.
+</span> Our white-hat techniques will bolster your online presence, boost your domain authority, and secure top rankings that attract organic traffic.
+
             </FeatureText2>
+            <HeroButton>Start a Project</HeroButton>
             </FeatureContainer>
             <FeatureBoxContainer>
-            
-              <FeatureBox>Web Development</FeatureBox>
-              <FeatureBox2>UI/UX Design</FeatureBox2>
-          
-              
+
+            </FeatureBoxContainer>
+         </FeatureSection>
+         <FeatureSection>
+          <FeatureContainer>
+           
+            </FeatureContainer>
+            <FeatureBoxContainer>
+            <FeatureText> <span style={{color: "#34eb37"}}>SEO </span>Services </FeatureText>
+            <FeatureText2>
+            Content is king, and we'll create engaging, informative, and keyword-optimized content that resonates with your target audience. Our content strategies will position you as an industry authority and help you rank higher in search results. We'll also leverage off-page SEO techniques, such as link building and social media integration, to enhance your website's credibility and visibility across the web.
+
+
+<span style={{color: "#34eb37"}}>We provide meticulous monitoring and data analysis, we'll track the performance of your SEO campaigns, providing detailed reports and insights to measure success and drive continuous improvement. Our goal is to deliver measurable results, increase your organic traffic, and generate qualified leads that convert into loyal customers.
+Don't let your website get lost in the vast digital landscape. Partner with us for expert SEO services, and together, we'll ignite your online presence, dominate search engine rankings, and fuel your business growth.
+
+</span> Ready to unlock the full potential of SEO for your business? Contact us today, and let's embark on a transformative SEO journey that sets you apart from the competition and drives sustainable success.
+
+            </FeatureText2>
             </FeatureBoxContainer>
          </FeatureSection>
           {/* <Cta split /> */}
         </>
+        
   )
 }
 
-export default WebDev
+export default SEO

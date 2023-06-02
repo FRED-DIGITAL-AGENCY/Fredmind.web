@@ -13,7 +13,7 @@ const AppDev = () => {
     
     //STYLED COMPONENTS
     const MainHeading = styled.h1`
-      font-size: clamp(2.3rem, 6vw, 4.5rem);
+    font-size: clamp(2rem, 3vw, 3.5rem);
       margin-bottom: 2rem;
       width: 100%;
       letter-spacing: 1px;
@@ -73,6 +73,7 @@ const AppDev = () => {
       height: 100vh;
       font-weight:700;
       padding-top: clamp(70px, 25vh, 220px);
+      color:#7e807f;
     `;
      const HeroText = styled.p`
       margin-bottom: 35px;
@@ -106,80 +107,102 @@ const AppDev = () => {
       }
     `;
     const FeatureSection = styled.section`
-    height: 100vh;
-    font-weight:700;
-    margin:30px;
-    padding-top: clamp(70px, 25vh, 220px);
-    display:flex;
-    align-items:center;
-    justify-content:space-around;
-    @media only screen and (max-width: 480px) {
+     padding-top: clamp(70px, 25vh, 220px);
      display:flex;
-     flex-direction :column;
- 
-     
-     }
+     justify-content:space-between;
+     margin:5%;
+     @media only screen and (max-width: 480px) {
+      display:flex;
+      flex-direction :column;
+      margin:0;
+  
+      
+      }
 
-  `;
-  const FeatureText = styled.p`
-  margin-bottom: 35px;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: start;
-  letter-spacing: 2px;
-  color: #fff;
-`;
-const FeatureBoxContainer = styled.div`
-    
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     height: 350px;
- width: 280px;
- margin:5%;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- @media only screen and (max-width: 480px) {
-   // padding: 30px 20px;
-   width: 180px;
-   display:flex;
-   margin-right:190px;
+   `;
+   const FeatureContainer = styled.div`
+   width: 100%;
+   max-width: 1300px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: 'Merriweather Sans', sans-serif;
+   padding: 0 50px;
+ `;
+   const FeatureText  = styled.p`
+   font-size: 30px;
+   line-height: 26px;
+   font-weight:600;
+   text-align: center;
+   margin-right:250px;
+   letter-spacing: 1px;
    
- }
+ `;
+ const FeatureText2  = styled.p`
+ font-size: 16px;
+ line-height:20px;
+ text-align: start;
+ letter-spacing: 1px;
+ 
 `;
+ const FeatureBoxContainer = styled.div`
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction:row;
+      height: auto;
+  width: 100%;
+  // margin:5%;
+  margin-right:90px;
+  align-items: center;
 
-const FeatureBox = styled.div`
-// width: 50%;
- border:2px solid #fff;
- padding:50px;
- border-radius:5px;
- text-align:center;
-      margin:5px;
+  @media only screen and (max-width: 480px) {
+    // padding: 30px 20px;
+    width: 180px;
+    display:flex;
+    flex-direction:row;
+    margin-left:100px;
+    
+  }
+ `;
+
+ const FeatureBox = styled.div`
+ width: 200px;
+ height:200px;
+ box-shadow:-10px 5px 20px 10px #000;
+  padding:50px;
+  border-radius:5px;
+  display:flex;
+  text-align:center;
+       margin:5px;
 `;
 const FeatureBox2 = styled.div`
-// width: 50%;
- background-color:#34eb37;
- padding:50px;
- border-radius:5px;
- text-align:center;
-      margin:5px;
-      
+width: 200px;
+height:200px;
+color:#000;
+  background-color:#34eb37;
+  padding:50px;
+  font-weight:600;
+  border-radius:5px;
+  text-align:center;
+       margin:10px;
+       
 `;
+
   return (
     <>
     <HeroSection>
  
           <Container>
-            <MainHeading>Application<br></br><br></br>Development</MainHeading>
+            <MainHeading>Crafting Next-Generation Digital products and Applications Tailored Just for You
+</MainHeading>
             <HeroText>
-            We build fast, responsive and device friendly apps deployed with the best KPI’s for efficiency and productivity. We love innovation and bring ideas to reality by applying holistic approaches to achieve results.
+            We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
             </HeroText>
             <ButtonWrapper>
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Build an App</HeroButton>
+              <HeroButton>Start a project</HeroButton>
             </ButtonWrapper>
             
           </Container>
@@ -188,22 +211,34 @@ const FeatureBox2 = styled.div`
         <Container4>
       <Wrapper>
       <Left>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis  lorerzsmmm
+      Unlock Your Potential with Engaging and Productive Applications - Say Goodbye to Boring Apps!
+
       </Left>
       <Right>
         <Desc>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        Supercharge Your Business Growth with Custom App Development Solutions!<hr></hr> In today's fast-paced digital landscape, harnessing the power of mobile technology is essential for driving business growth.
+
         </Desc>
       </Right>
       </Wrapper>
     </Container4>
     <FeatureSection>
-            <FeatureText>lorem ipsum</FeatureText>
+          <FeatureContainer>
+            <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
+            <FeatureText2>
+            Our team of expert app developers will collaborate closely with you to understand your business goals, target market, and specific requirements. We'll design and develop a cutting-edge app that reflects your brand identity, captivates users, and drives tangible results.<span style={{color: "#34eb37"}}> Whether you're looking to create an intuitive e-commerce app, a seamless customer service platform, a productivity-boosting internal tool, or a data-driven business solution, we have the technical prowess and industry expertise to bring your vision to life.
+</span> Our focus is not only on creating visually appealing and user-friendly apps but also on optimizing performance, ensuring cross-platform compatibility, and integrating advanced features that enhance user engagement and satisfaction.
+
+            </FeatureText2>
+            </FeatureContainer>
             <FeatureBoxContainer>
-              <FeatureBox>lorem ipsum</FeatureBox>
-              <FeatureBox2>lorem ipsum</FeatureBox2>
-              <FeatureBox2>lorem ipsum</FeatureBox2>
-              <FeatureBox>lorem ipsum</FeatureBox>
+            
+              <FeatureBox>Android App Development</FeatureBox>
+              <FeatureBox2>Web App Development</FeatureBox2>
+              <FeatureBox>IOS App Development</FeatureBox>
+              <FeatureBox2>Cross Platform Apps</FeatureBox2>
+              
+              
             </FeatureBoxContainer>
          </FeatureSection>
           {/* <Cta split /> */}

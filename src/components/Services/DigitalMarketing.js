@@ -8,10 +8,10 @@ import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
 const DigitalMarketing = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2.3rem, 6vw, 4.5rem);
+       font-size: clamp(2rem, 3vw, 3.5rem);
        margin-bottom: 2rem;
        width: 100%;
-       letter-spacing: 4px;
+       letter-spacing: 2px;
        color: #34eb37;
        text-align: start;
        font-family: 'Merriweather Sans', sans-serif;
@@ -68,6 +68,7 @@ const DigitalMarketing = () => {
        height: 100vh;
        font-weight:700;
        padding-top: clamp(70px, 25vh, 220px);
+      
      `;
       const HeroText = styled.p`
        margin-bottom: 35px;
@@ -75,7 +76,7 @@ const DigitalMarketing = () => {
        line-height: 24px;
        text-align: start;
       //  letter-spacing: 2px;
-      //  color: #fff;
+       color: #7e807f;
      `;
      
       const ButtonWrapper = styled.div`
@@ -101,64 +102,84 @@ const DigitalMarketing = () => {
        }
      `;
      const FeatureSection = styled.section`
-     height: 100vh;
-     font-weight:700;
-     margin:30px;
      padding-top: clamp(70px, 25vh, 220px);
      display:flex;
-     align-items:center;
-     justify-content:space-around;
+     justify-content:space-between;
+     margin:5%;
      @media only screen and (max-width: 480px) {
       display:flex;
       flex-direction :column;
+      margin:0;
   
       
       }
 
    `;
-   const FeatureText = styled.p`
-   margin-bottom: 35px;
-   font-size: 20px;
-   line-height: 24px;
-   text-align: start;
-   letter-spacing: 2px;
-   color: #fff;
+   const FeatureContainer = styled.div`
+   width: 100%;
+   max-width: 1300px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: 'Merriweather Sans', sans-serif;
+   padding: 0 50px;
  `;
+   const FeatureText  = styled.p`
+   font-size: 30px;
+   line-height: 26px;
+   font-weight:600;
+   text-align: center;
+   margin-right:250px;
+   letter-spacing: 1px;
+   
+ `;
+ const FeatureText2  = styled.p`
+ font-size: 16px;
+ line-height:20px;
+ text-align: start;
+ letter-spacing: 1px;
+
+`;
  const FeatureBoxContainer = styled.div`
-     
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      height: 350px;
-  width: 280px;
-  margin:5%;
-  flex-direction: column;
+      flex-direction:row;
+      height: auto;
+  width: 100%;
+  // margin:5%;
+  margin-right:90px;
   align-items: center;
-  justify-content: center;
+
   @media only screen and (max-width: 480px) {
     // padding: 30px 20px;
     width: 180px;
     display:flex;
-    margin-right:190px;
+    flex-direction:row;
+    margin-left:100px;
     
   }
  `;
 
  const FeatureBox = styled.div`
-// width: 50%;
-  border:2px solid #fff;
+ width: 200px;
+ height:200px;
   padding:50px;
   border-radius:5px;
+  display:flex;  
+  box-shadow:-10px 5px 20px 10px #000;
   text-align:center;
        margin:5px;
 `;
 const FeatureBox2 = styled.div`
-// width: 50%;
+width: 200px;
+height:200px;
+color:#000;
   background-color:#34eb37;
   padding:50px;
+  font-weight:600;
   border-radius:5px;
   text-align:center;
-       margin:5px;
+       margin:10px;
        
 `;
   return (
@@ -166,7 +187,7 @@ const FeatureBox2 = styled.div`
     <HeroSection>
  
           <Container>
-            <MainHeading>Digital Marketing</MainHeading>
+            <MainHeading>Fostering the online growth of businesses</MainHeading>
             <HeroText>
             We explode companies online presence help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit.
 
@@ -175,29 +196,43 @@ const FeatureBox2 = styled.div`
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Start a project
+</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
         <Container4>
       <Wrapper>
       <Left>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis  lorerzsmmm
+      Supercharge Your Business Growth with Cutting-Edge Digital Marketing Strategies!<br></br> 
+In today's digital age, a strong online presence is essential for business success. 
+
       </Left>
       <Right>
         <Desc>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        Are you ready to take your business to new heights and leave your competitors in the dust?Look no further!<hr></hr> Our comprehensive digital marketing solutions are specifically designed to drive exponential growth for your business.
+
         </Desc>
       </Right>
       </Wrapper>
     </Container4>
          <FeatureSection>
-            <FeatureText>lorem ipsum</FeatureText>
+          <FeatureContainer>
+            <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
+            <FeatureText2>With digital marketing, We offer businesses of all sizes the opportunity to reach a global audience, target specific demographics, track results in real-time,and optimize campaigns for better outcomes.
+            <span style={{color: "#34eb37"}}> <br></br>It continues to evolve as technology advances, providing new avenues for businesses to connect with customers and drive growth in the digital landscape.</span>
+            </FeatureText2>
+            </FeatureContainer>
             <FeatureBoxContainer>
-              <FeatureBox>lorem ipsum</FeatureBox>
-              <FeatureBox2>lorem ipsum</FeatureBox2>
-              <FeatureBox2>lorem ipsum</FeatureBox2>
-              <FeatureBox>lorem ipsum</FeatureBox>
+            
+              <FeatureBox>Influence Marketing</FeatureBox>
+              <FeatureBox2>Social Media Marketing </FeatureBox2>
+              <FeatureBox2>Pay-Per-Click Advertising </FeatureBox2>
+              <FeatureBox>Search Engine Optimization </FeatureBox>
+              <FeatureBox>Content Marketing</FeatureBox>
+              <FeatureBox2>Email Marketing</FeatureBox2>
+              <FeatureBox>Media Buying</FeatureBox>
+              
             </FeatureBoxContainer>
          </FeatureSection>
         
