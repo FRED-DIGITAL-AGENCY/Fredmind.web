@@ -6,7 +6,7 @@ import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
 const WebDev = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2.3rem, 6vw, 4.5rem);
+       font-size: clamp(2rem, 3vw, 3.5rem);
        margin-bottom: 2rem;
        width: 100%;
        letter-spacing: 4px;
@@ -185,7 +185,8 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Website<br></br><br></br>Development</MainHeading>
+            <MainHeading>Elevating Your online Presence: Empowering Businesses through expertly crafted websites
+</MainHeading>
             <HeroText>
             We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
             </HeroText>
@@ -193,7 +194,7 @@ color:#000;
               {/* <Link to="#">
                 <Button>Get Started</Button>
               </Link> */}
-              <HeroButton>Find more</HeroButton>
+              <HeroButton>Start a project</HeroButton>
             </ButtonWrapper>
           </Container>
         </HeroSection>
@@ -201,11 +202,13 @@ color:#000;
         <Container4>
       <Wrapper>
       <Left>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis  lorerzsmmm
+      Engage, Connect, Convert: Crafting Websites That Speak to Your Visitors 
+
       </Left>
       <Right>
         <Desc>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis
+        At FREDMIND DIGITAL, we don't just build websites; we build experiences that engage and communicate effectively with your visitors. <hr></hr>Our meticulous attention to detail ensures that every element of your website is strategically designed to leave a lasting impression and inspire action.
+
         </Desc>
       </Right>
       </Wrapper>
@@ -214,7 +217,11 @@ color:#000;
           <FeatureContainer>
             <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
             <FeatureText2>
-            Lorem ipsum dolor sit amet, consectetur adipi<span style={{color: "#34eb37"}}>  Duis nec tellus ut purus sodales interdum. Suspendisse condimentum sem mi, quis</span> ondimentum sem mi, quis
+            Our talented developers combine cutting-edge technology with creative flair to build websites that effortlessly convey your brand's message, values, and offerings.
+But we don't stop there. We believe that a successful website is more than just visually appealing. It should be a powerful marketing tool that converts visitors into loyal customers.
+<span style={{color: "#34eb37"}}>  That's why we optimize your website for search engines, ensuring that your online presence reaches its full potential and attracts organic traffic.
+With our responsive and mobile-friendly designs, your website will look stunning on any device, offering a seamless browsing experience for your visitors.
+</span> Whether they're accessing your website from a desktop, smartphone, or tablet, rest assured that your brand will shine brightly.
             </FeatureText2>
             </FeatureContainer>
             <FeatureBoxContainer>
