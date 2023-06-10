@@ -53,6 +53,7 @@ const Card = styled.div`
 const CardImage = styled.img`
   height: 100%;
   width: 100%;
+  
   object-fit: cover;
   border-radius:20px;
 `;
@@ -65,6 +66,7 @@ const TextWrapper = styled.div`
 const MemberName = styled.div`
   // color: #fff;
   text-align: center;
+  margin-top:10px;
   padding: 2% 2%;
 `;
 

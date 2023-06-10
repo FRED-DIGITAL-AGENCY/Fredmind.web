@@ -23,7 +23,7 @@ const Company = () => {
 			<Container>
 				<MainHeading>Who We Are</MainHeading>
 				<HeroText>
-        We Are Africa's Digital Marketing "Silicon Valley, accelerating conscious growth marketing strategies by leveraging the use of technology and innovatively building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands We help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit.
+				We Are Africa's Digital Solution company accelerating startups, creators, creating systems, building profitable careers in tech for Africans, accelerate brands and Build Products people will love and use by leveraging the use of technology and innovations building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands for peak profit.
 				</HeroText>
 			</Container>
 		</HeroSection>

@@ -125,19 +125,19 @@ const Header = ({
                                   title="What We Do"
                                   menuVariant="dark"
                                 >
-                                  <NavDropdown.Item href="/DigitalMarketing">Digital Marketing</NavDropdown.Item>
+                                  <NavDropdown.Item href="/digitalmarketing">Digital Marketing</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/WebDev">
+                                  <NavDropdown.Item href="/webdev">
                                     Web Development
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/AppDev">App Development</NavDropdown.Item>
+                                  <NavDropdown.Item href="/appdev">App Development</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/BrandingSection">
+                                  <NavDropdown.Item href="/brandingsection">
                                   Branding
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/SEO">
+                                  <NavDropdown.Item href="/seo">
                                   SEO Services
                                   </NavDropdown.Item>
                                 </NavDropdown>
@@ -151,19 +151,19 @@ const Header = ({
                                   title="Use Cases"
                                   menuVariant="dark"
                                 >
-                                  <NavDropdown.Item href="/Creators">Creators</NavDropdown.Item>
+                                  <NavDropdown.Item href="/creators">Creators</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Startup">
+                                  <NavDropdown.Item href="/startup">
                                   Start-Ups
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Professional">Professionals</NavDropdown.Item>
+                                  <NavDropdown.Item href="/professional">Professionals</NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Saas">
+                                  <NavDropdown.Item href="/saas">
                                   SaaS
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/Ecommerce">
+                                  <NavDropdown.Item href="/ecommerce">
                                   E-commerce
                                   </NavDropdown.Item>
                                 </NavDropdown>
@@ -175,7 +175,7 @@ const Header = ({
                       <Link to="/blog" onClick={closeMenu}>Blog</Link>
                     </li> */}
                       <li>
-                      <Link to="/WhoWeAre" onClick={closeMenu}>Who We Are</Link>
+                      <Link to="/whoweare" onClick={closeMenu}>Who We Are</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
