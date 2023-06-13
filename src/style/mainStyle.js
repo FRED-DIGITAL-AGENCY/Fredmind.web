@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const Container4 = styled.div`
  
   font-family: 'Merriweather Sans', sans-serif;
-  }
 `;
 export const Wrapper = styled.div`
   margin:5px;
@@ -124,12 +123,13 @@ export const HeroSection = styled.section`
 	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 	font-weight:600;
-	// color: #fff;
+	
 `;
 export const HeroText2 = styled.p`
 margin-bottom: 35px;
 font-size: 22px;
-line-height: 34px;
+margin:50px;
+line-height: 30px;
 font-family: 'Merriweather Sans', sans-serif;
 font-weight:400;
 `;

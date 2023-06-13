@@ -5,7 +5,7 @@ import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/use
 const Startup = () => {
      //STYLED COMPONENTS
      const MainHeading = styled.h1`
-     font-size: clamp(2.3rem, 6vw, 4.5rem);
+     font-size: clamp(1rem, 6vw, 3.5rem);
      margin-bottom: 2rem;
      width: 100%;
      letter-spacing: 4px;
@@ -68,11 +68,10 @@ const Startup = () => {
    `;
     const HeroText = styled.p`
      margin-bottom: 35px;
-     font-size: 20px;
+     font-size: 18px;
      line-height: 24px;
      text-align:start;
      letter-spacing: 2px;
-     color: #fff;
    `;
    
     const ButtonWrapper = styled.div`
@@ -104,11 +103,11 @@ const Startup = () => {
           <Container>
             <MainHeading>Start-Ups</MainHeading>
             <HeroText>
-            Dear Entrepreneurs,
+            Dear Entrepreneurs<br></br><br></br>
 
 We are Bridging The Gap Between You & Your Customers by providing a glove-fit solution tailored towards your business growth & Sales 
 
-Accelerating Growth formula for you 
+Accelerating Growth formula for you. 
 
             </HeroText>
             <ButtonWrapper>

@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
+import Image from '../elements/Image';
+
 // import sections
 // import Hero from '../components/sections/Hero';
 // import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -13,7 +15,7 @@ const AppDev = () => {
     
     //STYLED COMPONENTS
     const MainHeading = styled.h1`
-    font-size: clamp(2rem, 3vw, 3.5rem);
+    font-size: clamp(1rem, 2vw, 3rem);
       margin-bottom: 2rem;
       width: 100%;
       letter-spacing: 1px;
@@ -172,6 +174,9 @@ const AppDev = () => {
   padding:50px;
   border-radius:5px;
   display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   text-align:center;
        margin:5px;
 `;
@@ -183,6 +188,10 @@ color:#000;
   padding:50px;
   font-weight:600;
   border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   text-align:center;
        margin:10px;
        
@@ -193,7 +202,7 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Crafting Next-Generation Digital products and Applications Tailored Just for You
+            <MainHeading> <span style={{color:"#fff",}}>App Development </span> <br></br>Crafting Next-Generation Digital products and Applications Tailored Just for You
 </MainHeading>
             <HeroText>
             We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
@@ -224,7 +233,7 @@ color:#000;
     </Container4>
     <FeatureSection>
           <FeatureContainer>
-            <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
+            <FeatureText> <span style={{color: "#34eb37"}}>App Development</span> </FeatureText>
             <FeatureText2>
             Our team of expert app developers will collaborate closely with you to understand your business goals, target market, and specific requirements. We'll design and develop a cutting-edge app that reflects your brand identity, captivates users, and drives tangible results.<span style={{color: "#34eb37"}}> Whether you're looking to create an intuitive e-commerce app, a seamless customer service platform, a productivity-boosting internal tool, or a data-driven business solution, we have the technical prowess and industry expertise to bring your vision to life.
 </span> Our focus is not only on creating visually appealing and user-friendly apps but also on optimizing performance, ensuring cross-platform compatibility, and integrating advanced features that enhance user engagement and satisfaction.
@@ -233,10 +242,26 @@ color:#000;
             </FeatureContainer>
             <FeatureBoxContainer>
             
-              <FeatureBox>Android App Development</FeatureBox>
-              <FeatureBox2>Web App Development</FeatureBox2>
-              <FeatureBox>IOS App Development</FeatureBox>
-              <FeatureBox2>Cross Platform Apps</FeatureBox2>
+              <FeatureBox><Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Android App Development</FeatureBox>
+              <FeatureBox2><Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Web App Development</FeatureBox2>
+              <FeatureBox><Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />IOS App Development</FeatureBox>
+              <FeatureBox2><Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Cross Platform Apps</FeatureBox2>
               
               
             </FeatureBoxContainer>

@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
   }
 `;
 export const Left = styled.div`
-width: 50%;
+width: 30%;
 box-shadow:-10px 5px 20px 10px #000;
 padding:50px;
 border-radius:5px;
@@ -42,7 +42,7 @@ export const Image = styled.img`
 `;
 
 export const Right = styled.div`
-width: 40%;
+width: 60%;
 margin-left:5px;
 text-align:center;
 padding:50px;
@@ -51,14 +51,15 @@ color:#000;
 background-color:#34eb37;
 @media only screen and (max-width: 480px) {
   margin-top:5px;
-  width: 60%;
+  width: 80%;
   
 }
 `;
 export const SubTitle = styled.span`
-  font-size: 24px;
+  font-size: 20px;
   font-style: italic;
   color: #fff;
+  text-align:center;
   margin-top: 30px;
 `;
 
