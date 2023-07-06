@@ -111,10 +111,9 @@ Accelerating Growth formula for you.
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a Project</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project </HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

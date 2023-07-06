@@ -199,10 +199,9 @@ color:#000;
             We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a project</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

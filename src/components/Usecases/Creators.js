@@ -116,10 +116,9 @@ Where Creators build the future.
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Become a Creator</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Become a Creator</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

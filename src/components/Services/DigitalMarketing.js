@@ -4,7 +4,6 @@ import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
 import Image from '../elements/Image';
 
 
-
 const DigitalMarketing = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
@@ -200,11 +199,11 @@ color:#000;
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a project
-</HeroButton>
+      
+                <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
+              
             </ButtonWrapper>
           </Container>
         </HeroSection>

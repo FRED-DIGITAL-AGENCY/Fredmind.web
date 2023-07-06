@@ -109,10 +109,9 @@ Small and Medium-sized Enterprises (SMEs) are powerful, profitable and sustainab
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Ready to scale</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Ready to Scale</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

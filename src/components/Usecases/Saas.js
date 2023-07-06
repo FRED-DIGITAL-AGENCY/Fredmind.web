@@ -111,10 +111,9 @@ Roadmaps to Scaling your products and softwares with easy-to-use solutions cruci
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start your Journey</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start your journey</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

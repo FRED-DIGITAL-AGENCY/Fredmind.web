@@ -200,10 +200,9 @@ color:#000;
             In a digital world driven by search engines, the key to success depends on securing top rankings, dominating search engine results, attract targeted traffic and skyrocket your online visibility.
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a Project</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>
@@ -231,7 +230,7 @@ color:#000;
 </span> Our white-hat techniques will bolster your online presence, boost your domain authority, and secure top rankings that attract organic traffic.
 
             </FeatureText2>
-            <HeroButton>Start a Project</HeroButton>
+            {/* <HeroButton>Start a Project</HeroButton> */}
             </FeatureContainer>
             <FeatureBoxContainer>
 

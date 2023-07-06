@@ -109,10 +109,9 @@ Achieving an effective industry customer experience for your e-commerce store fr
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Sell like Crazy</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Sell like Crazy</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>
