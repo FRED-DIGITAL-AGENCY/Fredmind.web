@@ -167,10 +167,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Content Creation
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                 Unlock creator’s monetization. Become a content creator. Develop unique content specific for you. Spin the right words, spot the audience for you & get you setup for success. Unlock your Inner-Passion, Shine your creativity. Build your Brand & business.
                     </p>
                 </div>
               </div>
@@ -189,10 +189,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Social Media
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Monetize Your Business and Brand. With the Ability to Go Viral and Grow Your Presence on Facebook, Instagram, TikTok, Twitter, LinkedIn and YouTube, You Can Gain a Competitive Edge. Develop Unique Content Tailored to Your Needs & Stand Out Across the Social Space.
                     </p>
                 </div>
               </div>

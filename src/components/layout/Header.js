@@ -3,6 +3,11 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Dropdown from 'react-bootstrap/Dropdown';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -113,16 +118,64 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="/products" onClick={closeMenu}>Products</Link>
+                    {/* <Link to="/Usecases" onClick={closeMenu}>What We Do</Link> */}
+
+                                <NavDropdown
+                                  id="nav-dropdown-dark-example"
+                                  title="What We Do"
+                                  menuVariant="dark"
+                                >
+                                  <NavDropdown.Item href="/digitalmarketing">Digital Marketing</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/webdev">
+                                    Web Development
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/appdev">App Development</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/brandingsection">
+                                  Branding
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/seo">
+                                  SEO Services
+                                  </NavDropdown.Item>
+                                </NavDropdown>
+                                
+                                
+                          
                     </li>
                     <li>
-                      <Link to="/usecases" onClick={closeMenu}>Use Cases</Link>
+                    <NavDropdown
+                                  id="nav-dropdown-dark-example"
+                                  title="Use Cases"
+                                  menuVariant="dark"
+                                >
+                                  <NavDropdown.Item href="/creators">Creators</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/startup">
+                                  Start-Ups
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/professional">Professionals</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/saas">
+                                  SaaS
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/ecommerce">
+                                  E-commerce
+                                  </NavDropdown.Item>
+                                </NavDropdown>
                     </li>
-                       <li>
+                       {/* <li>
                       <Link to="/pricing" onClick={closeMenu}>Pricing</Link>
-                    </li>
+                    </li> */}
+                     {/* <li>
+                      <Link to="/blog" onClick={closeMenu}>Blog</Link>
+                    </li> */}
                       <li>
-                      <Link to="/company" onClick={closeMenu}>Company</Link>
+                      <Link to="/whoweare" onClick={closeMenu}>Who We Are</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -130,7 +183,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="School" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>School</Link>
+                        <Link to="School" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>School</Link>
                       </li>
                     </ul>}
                 </div>

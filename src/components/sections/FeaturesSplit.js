@@ -72,9 +72,9 @@ const FeaturesSplit = ({
                 <h3 className="text-color-primary mt-0 mb-12">
                Creative Solution 
                   </h3>
-                <p className="m-0">
+                <p className="m-3">
                  Startups fail? This is a hard and bleak Truth, But One that you will do well to meditate on. Business problems Always exist, from structure, audience Market, financial management to sustainability Plan We  navigate through yours and solve them by identifying suitable market for your products and most budget-friendly ways to engage them using detailed research, insights and creativity to accelerate growth leads for convertible success
-                Accept us as an extension of your team. Providing Top Notch Drop Servicing Business, Structure You Ahead of Many, Strategies and tools that will Increase your business, visibility An <b>Creative Solution</b> d most importantly generate revenue. 
+                Accept us as an extension of your team. Providing Top Notch Drop Servicing Business, Structure You Ahead of Many, Strategies and tools that will Increase your business, visibility And <b>Creative Solution</b>  most importantly generate revenue. 
                   </p>
               </div>
               <div className={

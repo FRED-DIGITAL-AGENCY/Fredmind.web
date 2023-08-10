@@ -189,6 +189,7 @@ const Team = () => {
                 </Icon>
 							</IconBox>
         </Card>
+<<<<<<< HEAD
         <Card>
           <CardImage src={Image7} />
           <TextWrapper>
@@ -221,6 +222,9 @@ const Team = () => {
         </Card>
       </Wrapper>
 
+=======
+      </Wrapper>
+>>>>>>> f0ac14a1db66c5af0b0da2d790230ef24fb787ca
     </Container>
     </>
   );

@@ -3,22 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
     "react-ga": "^2.7.0",
+    "react-icons": "^4.8.0",
+    "react-naira": "^1.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
-    "sass": "^1.49.7"
+    "react-spinners": "^0.13.8",
+    "react-tsparticles": "^2.9.3",
+    "sass": "^1.49.7",
+    "styled-components": "^5.3.8",
+    "tsparticles": "^2.9.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fredminddigital/fred.git"
+    "url": "https://github.com/FRED-DIGITAL-AGENCY/Fredmind.web.git"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
