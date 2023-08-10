@@ -7,6 +7,7 @@ import Image3 from '../../assets/images/Tomi.jpg'
 import Image4 from '../../assets/images/Fred.jpg'
 import Image5 from '../../assets/images/richard.jpg'
 import Image6 from '../../assets/images/K.jpg'
+import Image7 from '../../assets/images/zaza.jpg'
 
 
 const Container = styled.div`
@@ -43,7 +44,7 @@ const Card = styled.div`
   width: 280px;
   display: flex;
   margin:5%;
-  margin-top:60px;
+  margin-top:80px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -53,6 +54,7 @@ const Card = styled.div`
 const CardImage = styled.img`
   height: 100%;
   width: 100%;
+  margin-bottom:10px;
   object-fit: cover;
   border-radius:20px;
 `;
@@ -162,6 +164,21 @@ const Team = () => {
           <TextWrapper>
             <MemberName>Olusegun Caleb</MemberName>
             <TeamPosition>Software Engineer</TeamPosition>
+          </TextWrapper>
+          <IconBox>
+               <Icon>
+								<FaTwitter />
+                </Icon>
+                <Icon>
+								<FaLinkedin />
+                </Icon>
+							</IconBox>
+        </Card>
+        <Card>
+          <CardImage src={Image7} />
+          <TextWrapper>
+            <MemberName>Mark Johnson</MemberName>
+            <TeamPosition>Video Content Creator</TeamPosition>
           </TextWrapper>
           <IconBox>
                <Icon>

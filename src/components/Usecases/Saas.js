@@ -5,7 +5,7 @@ import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/use
 const Saas = () => {
      //STYLED COMPONENTS
      const MainHeading = styled.h1`
-     font-size: clamp(2.3rem, 6vw, 4.5rem);
+     font-size: clamp(1rem, 6vw, 3.5rem);
      margin-bottom: 2rem;
      width: 100%;
      letter-spacing: 4px;
@@ -68,11 +68,11 @@ const Saas = () => {
    `;
     const HeroText = styled.p`
      margin-bottom: 35px;
-     font-size: 20px;
+     font-size: 18px;
      line-height: 24px;
      text-align: start;
      letter-spacing: 2px;
-     color: #fff;
+    
    `;
    
     const ButtonWrapper = styled.div`
@@ -104,17 +104,16 @@ const Saas = () => {
           <Container>
             <MainHeading>SaaS
                <br></br>
-               <br></br> (Software as a Service) </MainHeading>
+               (Software as a Service) </MainHeading>
             <HeroText>
-            Dear Software Providers,
+            Dear Software Providers<br></br><br></br>
 Roadmaps to Scaling your products and softwares with easy-to-use solutions crucial for product-led business growth, Position & Scale your product in the market providing borderless transactions.
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start your Journey</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start your journey</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

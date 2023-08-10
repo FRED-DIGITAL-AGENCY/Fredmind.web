@@ -170,7 +170,7 @@ const FeaturesTiles = ({
                   Content Creation
                     </h4>
                   <p className="m-0 text-sm">
-                  Unlock creator monetization on your platform. Whether you want to become a creator using content, video, audio, photos, Animations or even text in blog articles. We develop unique content specific for you. Our team of highly-skilled creators  know how to spin the right words, spot the audience for you & put you out they for peak performance Share your thoughts & creativity. Unlock your Inner-Passion, Grow your community across Social Media to reach a larger audience. Build your Brand & business. 
+                 Unlock creator’s monetization. Become a content creator. Develop unique content specific for you. Spin the right words, spot the audience for you & get you setup for success. Unlock your Inner-Passion, Shine your creativity. Build your Brand & business.
                     </p>
                 </div>
               </div>
@@ -192,7 +192,7 @@ const FeaturesTiles = ({
                   Social Media
                     </h4>
                   <p className="m-0 text-sm">
-                  Discover the Power of Social Currency with Our Platform. Unlock the Potential to Monetize Your Business and Brand. With the Ability to Go Viral and Grow Your Presence on Facebook, Instagram, TikTok, Twitter, LinkedIn, and YouTube, You Can Gain a Competitive Edge. Our Team of Skilled Experts will Develop Unique Content Tailored to Your Needs and Help You Stand Out Across the Social Space, Identifying Your Target Audience and Enabling Peak Performance.
+                  Monetize Your Business and Brand. With the Ability to Go Viral and Grow Your Presence on Facebook, Instagram, TikTok, Twitter, LinkedIn and YouTube, You Can Gain a Competitive Edge. Develop Unique Content Tailored to Your Needs & Stand Out Across the Social Space.
                     </p>
                 </div>
               </div>

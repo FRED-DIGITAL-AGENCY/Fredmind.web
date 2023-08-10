@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
 import{ Wrapper, Container4, Left, Right, SubTitle, Desc } from  "../../style/mainStyle";
-
+import Image from '../elements/Image';
 
 const BrandingSection = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2rem, 3vw, 3.5rem);
+       font-size: clamp(1rem, 2vw, 3rem);
        margin-bottom: 2rem;
        width: 100%;
        letter-spacing: 3px;
@@ -166,6 +166,9 @@ const BrandingSection = () => {
   border-radius:5px;
   box-shadow:-10px 5px 20px 10px #000;
   display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   text-align:center;
        margin:5px;
 `;
@@ -175,6 +178,10 @@ height:200px;
 color:#000;
   background-color:#34eb37;
   padding:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   font-weight:600;
   border-radius:5px;
   text-align:center;
@@ -186,16 +193,15 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Elevate Your Online Presence with Compelling Branding
+            <MainHeading><span style={{color:"#fff",}}>Branding</span> <br></br>Elevate Your Online Presence with Compelling Branding
 </MainHeading>
             <HeroText>
             Harnessing the power of Branding online requires understanding why people talk and why some things get talked about and shared more than others. The psychology of sharing. The science of social transmission.We connect the dots by bridging the gap between you and your customers.
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Find more</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>
@@ -214,7 +220,7 @@ color:#000;
     </Container4>
     <FeatureSection>
           <FeatureContainer>
-            <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
+            <FeatureText> <span style={{color: "#34eb37"}}>Branding</span></FeatureText>
             <FeatureText2>
             Our expert team will work closely with you to develop a comprehensive branding strategy that captures the essence of your business and resonates with your target market.
 <span style={{color: "#34eb37"}}>From brand identity development, including logo design and visual elements, to crafting a compelling brand story and messaging, we'll create a cohesive and memorable brand that sets you apart from the competition. We'll ensure that every touchpoint, from your website to social media presence, consistently reflects your brand's voice and personality.
@@ -223,9 +229,23 @@ color:#000;
             </FeatureContainer>
             <FeatureBoxContainer>
             
-              <FeatureBox>Personal Branding</FeatureBox>
-              <FeatureBox2>Brand Strategy</FeatureBox2>
-              <FeatureBox>Visual Identity </FeatureBox>
+              <FeatureBox>
+              <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Personal Branding</FeatureBox>
+              <FeatureBox2>
+              <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Brand Strategy</FeatureBox2>
+              <FeatureBox><Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Visual Identity </FeatureBox>
             </FeatureBoxContainer>
          </FeatureSection>
           {/* <Cta split /> */}

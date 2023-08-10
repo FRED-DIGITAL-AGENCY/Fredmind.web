@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
-
-
+import Image from '../elements/Image';
 
 
 const DigitalMarketing = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2rem, 3vw, 3.5rem);
+       font-size: clamp(1rem, 2vw, 3rem);
        margin-bottom: 2rem;
        width: 100%;
        letter-spacing: 2px;
@@ -165,7 +164,10 @@ const DigitalMarketing = () => {
  height:200px;
   padding:50px;
   border-radius:5px;
-  display:flex;  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center; 
   box-shadow:-10px 5px 20px 10px #000;
   text-align:center;
        margin:5px;
@@ -176,6 +178,10 @@ height:200px;
 color:#000;
   background-color:#34eb37;
   padding:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   font-weight:600;
   border-radius:5px;
   text-align:center;
@@ -187,17 +193,17 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Fostering the online growth of businesses</MainHeading>
+            <MainHeading><span style={{color:"#fff",}}>Digital Marketing </span> <br></br>Fostering the online growth of businesses</MainHeading>
             <HeroText>
             We explode companies online presence help your business, Brand or organization go viral, Gain traction and drive conversion, implement Proven marketing strategies for peak profit.
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a project
-</HeroButton>
+      
+                <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
+              
             </ButtonWrapper>
           </Container>
         </HeroSection>
@@ -218,20 +224,55 @@ In today's digital age, a strong online presence is essential for business succe
     </Container4>
          <FeatureSection>
           <FeatureContainer>
-            <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
+            <FeatureText> <span style={{color: "#34eb37"}}>Digital Marketing</span> </FeatureText>
             <FeatureText2>With digital marketing, We offer businesses of all sizes the opportunity to reach a global audience, target specific demographics, track results in real-time,and optimize campaigns for better outcomes.
             <span style={{color: "#34eb37"}}> <br></br>It continues to evolve as technology advances, providing new avenues for businesses to connect with customers and drive growth in the digital landscape.</span>
             </FeatureText2>
             </FeatureContainer>
             <FeatureBoxContainer>
             
-              <FeatureBox>Influence Marketing</FeatureBox>
-              <FeatureBox2>Social Media Marketing </FeatureBox2>
-              <FeatureBox2>Pay-Per-Click Advertising </FeatureBox2>
-              <FeatureBox>Search Engine Optimization </FeatureBox>
-              <FeatureBox>Content Marketing</FeatureBox>
-              <FeatureBox2>Email Marketing</FeatureBox2>
-              <FeatureBox>Media Buying</FeatureBox>
+              <FeatureBox>
+              <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Social Media Marketing</FeatureBox>
+              <FeatureBox2> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Pay-Per-Click Advertising </FeatureBox2>
+              <FeatureBox2> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Search Engine Optimization </FeatureBox2>
+              <FeatureBox> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} /> Influence Marketing</FeatureBox>
+              <FeatureBox> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Content Marketing</FeatureBox>
+              <FeatureBox2> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Email Marketing</FeatureBox2>
+              <FeatureBox2> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Media Buying</FeatureBox2>
+                      
+                         <FeatureBox> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />YouTube Marketing</FeatureBox>
               
             </FeatureBoxContainer>
          </FeatureSection>

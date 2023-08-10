@@ -61,24 +61,24 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-             <AppRoute exact path="/WhatWeDo" component={Services} layout={LayoutDefault} />
+             <AppRoute exact path="/whatwedo" component={Services} layout={LayoutDefault} />
              <AppRoute exact path="/usecases" component={UseCases} layout={LayoutDefault} />
              <AppRoute exact path="/pricing" component={Pricing} layout={LayoutDefault} />
-             <AppRoute exact path="/WhoWeAre" component={Company} layout={LayoutDefault} />
+             <AppRoute exact path="/whoweare" component={Company} layout={LayoutDefault} />
              <AppRoute exact path="/blog" component={Blog} />
                <AppRoute exact path="/school" component={School} layout={LayoutDefault} />
                {/* WhatWeDo */}
-               <AppRoute exact path="/DigitalMarketing" component={DigitalMarketing} layout={LayoutDefault} />
-               <AppRoute exact path="/BrandingSection" component={BrandingSection} layout={LayoutDefault} />
-               <AppRoute exact path="/WebDev" component={WebDev} layout={LayoutDefault} />
-               <AppRoute exact path="/AppDev" component={AppDev} layout={LayoutDefault} />
-               <AppRoute exact path="/SEO" component={SEO} layout={LayoutDefault} />
+               <AppRoute exact path="/digitalmarketing" component={DigitalMarketing} layout={LayoutDefault} />
+               <AppRoute exact path="/brandingsection" component={BrandingSection} layout={LayoutDefault} />
+               <AppRoute exact path="/webdev" component={WebDev} layout={LayoutDefault} />
+               <AppRoute exact path="/appdev" component={AppDev} layout={LayoutDefault} />
+               <AppRoute exact path="/seo" component={SEO} layout={LayoutDefault} />
                {/* UseCases */}
-               <AppRoute exact path="/Ecommerce" component={Ecommerce} layout={LayoutDefault} />
-               <AppRoute exact path="/Professional" component={Professional} layout={LayoutDefault} />
-               <AppRoute exact path="/Startup" component={Startup} layout={LayoutDefault} />
-               <AppRoute exact path="/Saas" component={Saas} layout={LayoutDefault} />
-               <AppRoute exact path="/Creators" component={Creators} layout={LayoutDefault} />
+               <AppRoute exact path="/ecommerce" component={Ecommerce} layout={LayoutDefault} />
+               <AppRoute exact path="/professional" component={Professional} layout={LayoutDefault} />
+               <AppRoute exact path="/startup" component={Startup} layout={LayoutDefault} />
+               <AppRoute exact path="/saas" component={Saas} layout={LayoutDefault} />
+               <AppRoute exact path="/creators" component={Creators} layout={LayoutDefault} />
 
 
         </Switch>

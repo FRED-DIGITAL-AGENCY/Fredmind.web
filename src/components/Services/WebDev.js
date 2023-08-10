@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
 import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
-
+import Image from '../elements/Image';
 
 const WebDev = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2rem, 3vw, 3.5rem);
+       font-size: clamp(1rem, 2vw, 3rem);
        margin-bottom: 2rem;
        width: 100%;
-       letter-spacing: 4px;
+       letter-spacing: 2px;
        color: #34eb37;
        text-align: start;
        font-family: 'Merriweather Sans', sans-serif;
@@ -120,6 +120,7 @@ const WebDev = () => {
    margin-left: auto;
    font-family: 'Merriweather Sans', sans-serif;
    padding: 0 50px;
+   
  `;
    const FeatureText  = styled.p`
    font-size: 30px;
@@ -165,6 +166,9 @@ const WebDev = () => {
   padding:50px;
   border-radius:5px;
   display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   text-align:center;
        margin:5px;
 `;
@@ -174,6 +178,10 @@ height:200px;
 color:#000;
   background-color:#34eb37;
   padding:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   font-weight:600;
   border-radius:5px;
   text-align:center;
@@ -185,16 +193,15 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Elevating Your online Presence: Empowering Businesses through expertly crafted websites
+            <MainHeading><span style={{color:"#fff",}}>Web Development </span> <br></br>Elevating Your online Presence:Empowering Businesses through expertly crafted websites
 </MainHeading>
             <HeroText>
             We build highly responsive and thoroughly functional websites tailored to organizational or personal needs. We help organizations achieve more with a global class website suited for both branding and sales.
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a project</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>
@@ -215,7 +222,7 @@ color:#000;
     </Container4>
     <FeatureSection>
           <FeatureContainer>
-            <FeatureText> <span style={{color: "#34eb37"}}>Our </span>Services </FeatureText>
+            <FeatureText> <span style={{color: "#34eb37"}}>Web Development</span></FeatureText>
             <FeatureText2>
             Our talented developers combine cutting-edge technology with creative flair to build websites that effortlessly convey your brand's message, values, and offerings.
 But we don't stop there. We believe that a successful website is more than just visually appealing. It should be a powerful marketing tool that converts visitors into loyal customers.
@@ -226,8 +233,18 @@ With our responsive and mobile-friendly designs, your website will look stunning
             </FeatureContainer>
             <FeatureBoxContainer>
             
-              <FeatureBox>Web Development</FeatureBox>
-              <FeatureBox2>UI/UX Design</FeatureBox2>
+              <FeatureBox>
+              <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Web Development</FeatureBox>
+              <FeatureBox2> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />
+                UI/UX Design</FeatureBox2>
           
               
             </FeatureBoxContainer>

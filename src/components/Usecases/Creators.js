@@ -5,7 +5,7 @@ import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/use
 const Creators = () => {
      //STYLED COMPONENTS
      const MainHeading = styled.h1`
-     font-size: clamp(2.3rem, 6vw, 4.5rem);
+     font-size: clamp(1rem, 6vw, 3.5rem);
      margin-bottom: 2rem;
      width: 100%;
      letter-spacing: 4px;
@@ -70,11 +70,10 @@ const Creators = () => {
    `;
     const HeroText = styled.p`
      margin-bottom: 35px;
-     font-size: 20px;
+     font-size: 18px;
      line-height: 24px;
      text-align:start;
-     letter-spacing: 2px;
-     color: #fff;
+  
    `;
    
     const ButtonWrapper = styled.div`
@@ -112,15 +111,14 @@ Unlock creator monetization on your platform.
 Whether you want to become a creator using content, video, audio, photos or even text in blog articles. We develop unique content specific for you. Our team of highly-skilled creators  know how to spin the right words, spot the audience for you & put you out they for peak performance
 Share your thoughts, creativity. Unlock your Inner-Passion, Grow your community across Social Media to reach a larger audience. Build your Brand & business. 
 Saving you time, money and stress.
-<br></br><br></br>
-Where Creators build the future
+<br></br>
+Where Creators build the future.
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Become a Creator</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Become a Creator</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

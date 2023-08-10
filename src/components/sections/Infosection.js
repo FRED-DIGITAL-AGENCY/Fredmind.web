@@ -45,7 +45,19 @@ const Right = styled.div`
   flex-direction: column ;
   align-items:center;
   justify-content: center;
-  @media only screen and (max-width: 480px) {J
+  @media only screen and (max-width: 480px) {
+    width: 200px;
+    margin-top:15px;
+    height:50%;
+    box-shadow:-10px 5px 20px 10px #000;
+     padding:50px;
+     border-radius:5px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     text-align:center;
+       
   }
 `;
 const SubTitle = styled.span`

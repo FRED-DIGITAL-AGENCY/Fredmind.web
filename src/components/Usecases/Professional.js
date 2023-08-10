@@ -5,7 +5,7 @@ import{ Wrapper, Container2, Left, Right, Desc, SubTitle} from  "../../style/use
 const Professional = () => {
      //STYLED COMPONENTS
      const MainHeading = styled.h1`
-     font-size: clamp(2.3rem, 6vw, 4.5rem);
+     font-size: clamp(1rem, 6vw, 3.5rem);
      margin-bottom: 2rem;
      width: 100%;
      letter-spacing: 4px;
@@ -68,11 +68,11 @@ const Professional = () => {
    `;
     const HeroText = styled.p`
      margin-bottom: 35px;
-     font-size: 20px;
+     font-size:18px;
      line-height: 24px;
      text-align: start;
      letter-spacing: 2px;
-     color: #fff;
+  
    `;
    
     const ButtonWrapper = styled.div`
@@ -104,15 +104,14 @@ const Professional = () => {
           <Container>
             <MainHeading>Professionals</MainHeading>
             <HeroText>
-            Dear Professionals,
+            Dear Professionals<br></br><br></br>
 Small and Medium-sized Enterprises (SMEs) are powerful, profitable and sustainable when there's business structure. Digital Tools, Platforms and Channels  help you operate and manage your clients from anywhere, to enable focus on providing value.
 
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Ready to scale</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Ready to Scale</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>

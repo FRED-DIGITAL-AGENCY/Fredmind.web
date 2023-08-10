@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 import{ Wrapper, Container4, Left, Right, Desc } from  "../../style/mainStyle";
-
+import Image from '../elements/Image';
 
 
 
 const SEO = () => {
        //STYLED COMPONENTS
        const MainHeading = styled.h1`
-       font-size: clamp(2rem, 3vw, 3.5rem);
+       font-size: clamp(1rem, 2vw, 3rem);
        margin-bottom: 2rem;
        width: 100%;
        letter-spacing: 2px;
@@ -165,7 +165,10 @@ const SEO = () => {
  height:200px;
   padding:50px;
   border-radius:5px;
-  display:flex;  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center; 
   box-shadow:-10px 5px 20px 10px #000;
   text-align:center;
        margin:5px;
@@ -176,6 +179,10 @@ height:200px;
 color:#000;
   background-color:#34eb37;
   padding:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   font-weight:600;
   border-radius:5px;
   text-align:center;
@@ -187,16 +194,15 @@ color:#000;
     <HeroSection>
  
           <Container>
-            <MainHeading>Boost Your Online Visibility - Expert Search Engine Optimization (SEO) Services for Outstanding Results! 
+            <MainHeading><span style={{color:"#fff",}}>SEO Services</span> <br></br>Boost Your Online Visibility - Expert Search Engine Optimization (SEO) Services for Outstanding Results! 
 </MainHeading>
             <HeroText>
             In a digital world driven by search engines, the key to success depends on securing top rankings, dominating search engine results, attract targeted traffic and skyrocket your online visibility.
             </HeroText>
             <ButtonWrapper>
-              {/* <Link to="#">
-                <Button>Get Started</Button>
-              </Link> */}
-              <HeroButton>Start a Project</HeroButton>
+            <a href="http://127.0.0.1:5501/index.html">
+                <HeroButton>Start a project</HeroButton>
+              </a>
             </ButtonWrapper>
           </Container>
         </HeroSection>
@@ -224,7 +230,7 @@ color:#000;
 </span> Our white-hat techniques will bolster your online presence, boost your domain authority, and secure top rankings that attract organic traffic.
 
             </FeatureText2>
-            <HeroButton>Start a Project</HeroButton>
+            {/* <HeroButton>Start a Project</HeroButton> */}
             </FeatureContainer>
             <FeatureBoxContainer>
 
