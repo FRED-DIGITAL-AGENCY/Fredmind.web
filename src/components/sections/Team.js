@@ -189,42 +189,7 @@ const Team = () => {
                 </Icon>
 							</IconBox>
         </Card>
-<<<<<<< HEAD
-        <Card>
-          <CardImage src={Image7} />
-          <TextWrapper>
-            <MemberName>Mark Johnson</MemberName>
-            <TeamPosition>Video Content Creator</TeamPosition>
-          </TextWrapper>
-          <IconBox>
-               <Icon>
-								<FaTwitter />
-                </Icon>
-                <Icon>
-								<FaLinkedin />
-                </Icon>
-							</IconBox>
-        </Card>
-        <Card>
-          <CardImage src={Image7} />
-          <TextWrapper>
-            <MemberName>Mark Johnson</MemberName>
-            <TeamPosition>Video Content Creator</TeamPosition>
-          </TextWrapper>
-          <IconBox>
-               <Icon>
-								<FaTwitter />
-                </Icon>
-                <Icon>
-								<FaLinkedin />
-                </Icon>
-							</IconBox>
-        </Card>
       </Wrapper>
-
-=======
-      </Wrapper>
->>>>>>> f0ac14a1db66c5af0b0da2d790230ef24fb787ca
     </Container>
     </>
   );
