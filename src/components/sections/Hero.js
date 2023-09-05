@@ -60,20 +60,29 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-right" data-reveal-delay="300">Accelerating African Startups, Creators & Businesses   <span className="text-color-primary">for peak profit  </span>
+            <h1 className="mt-0 mb-16 reveal-from-right" data-reveal-delay="300">Accelerating Business Growth <span className="text-color-primary">for peak profit  </span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-left" data-reveal-delay="500">
-             If you're building a great business or product in Africa, for Africa, We should work together! Take your business global In sales and Profit
+              Establish Your Online Presence: Attract, Nurture, Convert & Sustain Your Brand and
+              Empowering Business Growth Through Expert Digital Solutions.<br></br>
+            
+
+Take your business global In sales and Profit.
+
+
+
                 </p>
+                <br></br>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
+                  
                   <Button tag="a" color="secondary" wideMobile href="https://calendly.com/fredminddigital/30min?month=2023-02">
               Talk To us 
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="/#">
+                  {/* <Button tag="a" color="dark" wideMobile href="/#">
                    Request a quote 
-                    </Button>
+                    </Button> */}
                 </ButtonGroup>
               </div>
             </div>

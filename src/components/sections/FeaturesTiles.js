@@ -57,7 +57,29 @@ const FeaturesTiles = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
+          <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      alt="Features tile icon 04"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  Branding
 
+                    </h4>
+                  <p className="m-0 text-sm">
+                 Harnessing the power of Branding online requires understanding why people talk and why some things get talked about and shared more than others. The psychology of sharing. The science of social transmission.
+
+                    </p>
+                </div>
+              </div>
+            </div>
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -81,7 +103,50 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
+              
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      alt="Features tile icon 06"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                 Digital Advertising
+                    </h4>
+                  <p className="m-0 text-sm">
+                  With digital advertising, we present businesses of every scale the chance to engage a worldwide audience, pinpoint distinct demographics, monitor real-time outcomes, and enhance campaigns for superior results.
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
+                      alt="Features tile icon 05"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  Content Marketing
+                    </h4>
+                  <p className="m-0 text-sm">
+                  In the digital realm, content reigns supreme. While certain content may be uninteresting, dull, or unreliable, others are captivating, enlightening, and enjoyable. Then there's extraordinary content – inspiring, impactful, and geared towards driving sales. We specialize in crafting top-notch content.
 
+                    </p>
+                </div>
+              </div>
+            </div>
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -130,73 +195,10 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  Branding
+         
 
-                    </h4>
-                  <p className="m-0 text-sm">
-                 Harnessing the power of Branding online requires understanding why people talk and why some things get talked about and shared more than others. The psychology of sharing. The science of social transmission.
+          
 
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  Content Creation
-                    </h4>
-                  <p className="m-0 text-sm">
-                 Unlock creator’s monetization. Become a content creator. Develop unique content specific for you. Spin the right words, spot the audience for you & get you setup for success. Unlock your Inner-Passion, Shine your creativity. Build your Brand & business.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  Social Media
-                    </h4>
-                  <p className="m-0 text-sm">
-                  Monetize Your Business and Brand. With the Ability to Go Viral and Grow Your Presence on Facebook, Instagram, TikTok, Twitter, LinkedIn and YouTube, You Can Gain a Competitive Edge. Develop Unique Content Tailored to Your Needs & Stand Out Across the Social Space.
-                    </p>
-                </div>
-              </div>
-            </div>
 
           </div>
         </div>

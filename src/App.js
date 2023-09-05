@@ -15,6 +15,9 @@ import WebDev from './components/Services/WebDev'
 import BrandingSection from './components/Services/BrandingSection'
 import DigitalMarketing from './components/Services/DigitalMarketing'
 import SEO from './components/Services/SEO'
+import ContentMarketing from './components/Services/ContentMarketing'
+import DigitalAdvertising from './components/Services/DigitalAdvertising'
+
 // Use Cases
 import Startup from './components/Usecases/Startup'
 import Professional from './components/Usecases/Professional'
@@ -72,6 +75,8 @@ const App = () => {
                <AppRoute exact path="/brandingsection" component={BrandingSection} layout={LayoutDefault} />
                <AppRoute exact path="/webdev" component={WebDev} layout={LayoutDefault} />
                <AppRoute exact path="/appdev" component={AppDev} layout={LayoutDefault} />
+               <AppRoute exact path="/contentmarketing" component={ContentMarketing} layout={LayoutDefault} />
+               <AppRoute exact path="/digitaladvertising" component={DigitalAdvertising} layout={LayoutDefault} />
                <AppRoute exact path="/seo" component={SEO} layout={LayoutDefault} />
                {/* UseCases */}
                <AppRoute exact path="/ecommerce" component={Ecommerce} layout={LayoutDefault} />

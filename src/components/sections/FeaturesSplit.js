@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'We want your problems',
-    paragraph: 'Startups fail? This is a hard and bleak Truth, But One that you will do well to meditate on. Business problems Always exist, from structure, audience Market, financial management to sustainability Plan '
+    paragraph: 'Businesses fail? This is a hard and bleak Truth, But One that you will do well to meditate on. Business problems Always exist, from lack of marketing structure, audience targeting, brand sustenance. '
   };
 
   return (
@@ -73,8 +73,9 @@ const FeaturesSplit = ({
                Creative Solution 
                   </h3>
                 <p className="m-3">
-                 Startups fail? This is a hard and bleak Truth, But One that you will do well to meditate on. Business problems Always exist, from structure, audience Market, financial management to sustainability Plan We  navigate through yours and solve them by identifying suitable market for your products and most budget-friendly ways to engage them using detailed research, insights and creativity to accelerate growth leads for convertible success
-                Accept us as an extension of your team. Providing Top Notch Drop Servicing Business, Structure You Ahead of Many, Strategies and tools that will Increase your business, visibility And <b>Creative Solution</b>  most importantly generate revenue. 
+                We  navigate through yours and solve them by identifying suitable market for your business and most budget-friendly ways to engage them using detailed research, insights and creativity to accelerate attract leads for convertible success
+Accept us as an extension of your team. Providing Top Notch Drop Servicing Business, Structure Your Online Presence Ahead of Many, Strategies and tools that will Increase your business visibility and most importantly generate revenue. 
+. 
                   </p>
               </div>
               <div className={
@@ -101,8 +102,8 @@ const FeaturesSplit = ({
 
                   </h3>
                 <p className="m-0">
-                  Creatively meeting your needs in ways that go above and beyond, paying attention to Details, picking the Pieces and tuning them into realistic solutions. Our refining approach to campaigns and rapid-response times means we’re flexible and can work seamlessly as part of your team.
-                  Your trusted-circle will be an integral part of the process, providing updates on each step. Treat them like they are the center of your World because they are and show the results and how we can optimize.
+                Creatively meeting your needs in ways that go above and beyond, paying attention to Details, picking the Pieces and tuning them into realistic solutions. Our refining approach to campaigns and rapid-response times means we’re flexible and can work seamlessly as part of your team.
+                Your trusted-circle will be an integral part of the process, providing updates on each step. Treat them like they are the center of your World because they are and show the results and how we can optimize.
 
                   </p>
               </div>
@@ -133,15 +134,18 @@ const FeaturesSplit = ({
                     Our Time 
                  
                   </li>
-                   <p>Aimed at time-crunched startups & businesses with cutting edge digital solutions across products Growth & sales .</p>
+                   <p>Aimed at time-crunched businesses with cutting edge digital solutions across Growth & sales .
+ .</p>
                   <li  className="text-color-secondary mt-0 mb-12">
                     Our Ideas    </li>
-                  <p>We Help You Think-Out Desired Results For Pressing Challenges For Global Conquest Ideation is converted to Implemented Project, Trust Us.</p>
+                  <p>We Help You Think-Out Desired Results For Pressing Challenges For Global Conquest Ideation is converted to Implemented Project, Trust Us.
+.</p>
                
                   
                  <li  className="text-color-secondary mt-0 mb-12">
                    Our Support   </li>
-                  <p>Holistically integrating you as part of our team in every step showing walkthrough & updates on stages of execution because we believe in collaboration for greater success. Your trusted-circle is an integral part of the process.</p>
+                  <p>Holistically integrating you as part of our team in every step showing walkthrough & updates on stages of execution because we believe in collaboration for greater success. Your trusted-circle is an integral part of the process.
+</p>
                
                   <li  className="text-color-secondary mt-0 mb-12">
                    Our Assurance

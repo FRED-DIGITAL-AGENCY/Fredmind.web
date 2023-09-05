@@ -23,7 +23,14 @@ const Company = () => {
 			<Container>
 				<MainHeading>Who We Are</MainHeading>
 				<HeroText>
-				We Are Africa's Digital Solution company accelerating startups, creators, creating systems, building profitable careers in tech for Africans, accelerate brands and Build Products people will love and use by leveraging the use of technology and innovations building financial funnels for African millennial and sharpening the global space by minting social currency for business and brands for peak profit.
+				Introducing Fredmind Digital AGENCY LTD – your gateway to dynamic digital excellence.<br></br>
+
+We are a digital solutions powerhouse, specializing in the creation of impactful strategies that fuel the expansion of B2C and B2B brands through customer acquisition.
+Our alliance extends to visionary leaders, encompassing Founders, Entrepreneurs, CEOs, C-level Executives, CMOs, and Growth Marketers. Together, we lay the groundwork and framework for a customer growth marketing strategy that stands strong.
+
+
+
+
 				</HeroText>
 			</Container>
 		</HeroSection>

@@ -200,7 +200,7 @@ color:#000;
             </HeroText>
             <ButtonWrapper>
       
-                <a href="http://127.0.0.1:5501/index.html">
+                <a href="https://calendly.com/fredminddigital/30min?month=2023-02">
                 <HeroButton>Start a project</HeroButton>
               </a>
               
@@ -230,49 +230,25 @@ In today's digital age, a strong online presence is essential for business succe
             </FeatureText2>
             </FeatureContainer>
             <FeatureBoxContainer>
-            
-              <FeatureBox>
+            <FeatureBox> <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />Digital Marketing Strategy</FeatureBox>
+              <FeatureBox2>
               <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />Social Media Marketing</FeatureBox>
-              <FeatureBox2> <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />Pay-Per-Click Advertising </FeatureBox2>
-              <FeatureBox2> <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />Search Engine Optimization </FeatureBox2>
+                      height={64} />Social Media Marketing</FeatureBox2>
+            
               <FeatureBox> <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} /> Influence Marketing</FeatureBox>
-              <FeatureBox> <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />Content Marketing</FeatureBox>
-              <FeatureBox2> <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />Email Marketing</FeatureBox2>
-              <FeatureBox2> <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />Media Buying</FeatureBox2>
-                      
-                         <FeatureBox> <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />YouTube Marketing</FeatureBox>
+           
+             
               
             </FeatureBoxContainer>
          </FeatureSection>

@@ -84,7 +84,7 @@ const Infosection = () => {
       <Right>
         <SubTitle>Our Mission</SubTitle>
         <Desc>
-        Applying Our time, talent, tools and strategies to create systems, products and building brands people will love and use.
+        Applying Our time, talent, tools and strategies to Accelerating Business Growth for Peak Profit. Establish Your Online Presence: Attract, Nurture, Convert & Sustain Your Brand
         </Desc>
       </Right>
       <Left>
@@ -94,7 +94,7 @@ const Infosection = () => {
       <Right>
       <SubTitle>Our Vision</SubTitle>
        <Desc>
-        Our vision is to be a household digital agency in Africa leading the frontier of technological advancement.
+       Our vision is to be a household Creative agency in Africa leading the frontier of Business Growth & technological advancement 
         </Desc>
      
      

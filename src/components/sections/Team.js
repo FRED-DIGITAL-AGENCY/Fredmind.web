@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { FaTwitter, FaLinkedin } from 'react-icons/fa'
-import Image1 from '../../assets/images/Yomi.jpg'
+import Image1 from '../../assets/images/Yomi.jpeg'
 import Image2 from '../../assets/images/emmy.jpg'
 import Image3 from '../../assets/images/Tomi.jpg'
 import Image4 from '../../assets/images/Fred.jpg'
-import Image5 from '../../assets/images/richard.jpg'
+// import Image5 from '../../assets/images/richard.jpg'
 import Image6 from '../../assets/images/K.jpg'
 import Image7 from '../../assets/images/zaza.jpg'
-
+import Image8 from '../../assets/images/goodness.jpg'
+import Image9 from '../../assets/images/gbolahun.jpg'
 
 const Container = styled.div`
   padding: 5%;
@@ -82,13 +83,27 @@ const Team = () => {
 
     <Container>
       <Wrapper>
-
+      <Card>
+          <CardImage src={Image4} />
+          <TextWrapper>
+            <MemberName>Fred Ogbole</MemberName>
+            <TeamPosition>Founder + CEO</TeamPosition>
+          </TextWrapper>
+            <IconBox>
+               <Icon>
+								<FaTwitter />
+                </Icon>
+                <Icon>
+								<FaLinkedin />
+                </Icon>
+							</IconBox>
+        </Card>
         <Card>
           <CardImage src={Image1} />
           <TextWrapper>
             <MemberName> Yomi Richard</MemberName>
             
-            <TeamPosition>Digital Marketer</TeamPosition>
+            <TeamPosition>Growth Marketer</TeamPosition>
           </TextWrapper>
           <IconBox>
                <Icon>
@@ -118,7 +133,7 @@ const Team = () => {
           <CardImage src={Image3} />
           <TextWrapper>
             <MemberName>Tominiyi Alabi</MemberName>
-            <TeamPosition>Digital Marketer</TeamPosition>
+            <TeamPosition>Content Marketer</TeamPosition>
           </TextWrapper>
           <IconBox>
                <Icon>
@@ -130,12 +145,12 @@ const Team = () => {
 							</IconBox>
         </Card>
         <Card>
-          <CardImage src={Image4} />
+          <CardImage src={Image7} />
           <TextWrapper>
-            <MemberName>Fred Ogbole</MemberName>
-            <TeamPosition>Founder + CEO</TeamPosition>
+            <MemberName>Mark Johnson</MemberName>
+            <TeamPosition>Video Creative Director</TeamPosition>
           </TextWrapper>
-            <IconBox>
+          <IconBox>
                <Icon>
 								<FaTwitter />
                 </Icon>
@@ -144,7 +159,8 @@ const Team = () => {
                 </Icon>
 							</IconBox>
         </Card>
-        <Card>
+        
+        {/* <Card>
           <CardImage src={Image5} />
           <TextWrapper>
             <MemberName>Richard Dexter</MemberName>
@@ -158,7 +174,7 @@ const Team = () => {
 								<FaLinkedin />
                 </Icon>
 							</IconBox>
-        </Card>
+        </Card> */}
         <Card>
           <CardImage src={Image6} />
           <TextWrapper>
@@ -174,11 +190,27 @@ const Team = () => {
                 </Icon>
 							</IconBox>
         </Card>
+
         <Card>
-          <CardImage src={Image7} />
+          <CardImage src={Image8} />
           <TextWrapper>
-            <MemberName>Mark Johnson</MemberName>
-            <TeamPosition>Video Content Creator</TeamPosition>
+            <MemberName>Goodness Ofido</MemberName>
+            <TeamPosition>Social Media Manager</TeamPosition>
+          </TextWrapper>
+          <IconBox>
+               <Icon>
+								<FaTwitter />
+                </Icon>
+                <Icon>
+								<FaLinkedin />
+                </Icon>
+							</IconBox>
+        </Card>
+        <Card>
+          <CardImage src={Image9} />
+          <TextWrapper>
+            <MemberName>Gbolahun Dauda</MemberName>
+            <TeamPosition>Creative Designer</TeamPosition>
           </TextWrapper>
           <IconBox>
                <Icon>

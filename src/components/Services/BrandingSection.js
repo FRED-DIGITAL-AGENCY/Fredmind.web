@@ -199,7 +199,7 @@ color:#000;
             Harnessing the power of Branding online requires understanding why people talk and why some things get talked about and shared more than others. The psychology of sharing. The science of social transmission.We connect the dots by bridging the gap between you and your customers.
             </HeroText>
             <ButtonWrapper>
-            <a href="http://127.0.0.1:5501/index.html">
+            <a href="https://calendly.com/fredminddigital/30min?month=2023-02">
                 <HeroButton>Start a project</HeroButton>
               </a>
             </ButtonWrapper>
@@ -234,7 +234,7 @@ color:#000;
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />Personal Branding</FeatureBox>
+                      height={64} />Corporate Branding</FeatureBox>
               <FeatureBox2>
               <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}

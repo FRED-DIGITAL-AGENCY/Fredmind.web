@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import { FaCheck } from "react-icons/fa";
 import Naira from 'react-naira';
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 const PricingCard = ({
     data,
@@ -179,14 +179,14 @@ const PricingCard = ({
     }
   `
   
-  PricingCard.propTypes = {
-    data: PropTypes.array.isRequired,
-    price: PropTypes.number.isRequired,
-    duration: PropTypes.oneOf(["y", "m"]).isRequired,
-    buttonContent: PropTypes.string.isRequired,
-    currency: PropTypes.string.isRequired,
-    subTitle: PropTypes.string.isRequired,
-    headerText: PropTypes.string.isRequired,
-  };
+  // PricingCard.propTypes = {
+  //   data: PropTypes.array.isRequired,
+  //   price: PropTypes.number.isRequired,
+  //   duration: PropTypes.oneOf(["y", "m"]).isRequired,
+  //   buttonContent: PropTypes.string.isRequired,
+  //   currency: PropTypes.string.isRequired,
+  //   subTitle: PropTypes.string.isRequired,
+  //   headerText: PropTypes.string.isRequired,
+  // };
 
 export default PricingCard

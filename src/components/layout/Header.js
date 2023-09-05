@@ -124,29 +124,37 @@ const Header = ({
                                   id="nav-dropdown-dark-example"
                                   title="What We Do"
                                   menuVariant="dark"
-                                >
+                                  // style={{  }}
+                                > 
+                                <NavDropdown.Item href="/brandingsection">
+                                Branding
+                                </NavDropdown.Item>
+                                <NavDropdown.Divider />
                                   <NavDropdown.Item href="/digitalmarketing">Digital Marketing</NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/digitaladvertising">
+                                  Digital Advertising
+                                  </NavDropdown.Item>
+                                  <NavDropdown.Divider />
+                                  <NavDropdown.Item href="/contentmarketing">Content Marketing</NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/webdev">
                                     Web Development
                                   </NavDropdown.Item>
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/appdev">App Development</NavDropdown.Item>
-                                  <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/brandingsection">
-                                  Branding
-                                  </NavDropdown.Item>
-                                  <NavDropdown.Divider />
-                                  <NavDropdown.Item href="/seo">
+                                 
+                                 
+                                  {/* <NavDropdown.Item href="/seo">
                                   SEO Services
-                                  </NavDropdown.Item>
+                                  </NavDropdown.Item> */}
                                 </NavDropdown>
                                 
                                 
                           
                     </li>
                     <li>
-                    <NavDropdown
+                    {/* <NavDropdown
                                   id="nav-dropdown-dark-example"
                                   title="Use Cases"
                                   menuVariant="dark"
@@ -166,7 +174,7 @@ const Header = ({
                                   <NavDropdown.Item href="/ecommerce">
                                   E-commerce
                                   </NavDropdown.Item>
-                                </NavDropdown>
+                                </NavDropdown> */}
                     </li>
                        {/* <li>
                       <Link to="/pricing" onClick={closeMenu}>Pricing</Link>
