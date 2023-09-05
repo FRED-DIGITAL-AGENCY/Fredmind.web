@@ -64,11 +64,8 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-left" data-reveal-delay="500">
-              Establish Your Online Presence: Attract, Nurture, Convert & Sustain Your Brand and
-              Empowering Business Growth Through Expert Digital Solutions.<br></br>
-            
-
-Take your business global In sales and Profit.
+              Establish Your Online Presence: Attract, Nurture, Convert & Sustain Your Brand.<br></br>
+        
 
 
 
