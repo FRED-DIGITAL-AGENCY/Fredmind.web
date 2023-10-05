@@ -119,13 +119,15 @@ const Header = ({
                     )}>
                     <li>
                     {/* <Link to="/Usecases" onClick={closeMenu}>What We Do</Link> */}
-
+                            
                                 <NavDropdown
-                                  id="nav-dropdown-dark-example"
+                                  id="navbarScrollingDropdown"
                                   title="What We Do"
                                   menuVariant="dark"
-                                  // style={{  }}
+                                  
+                                  // style={{ overflowX:"scroll"  }}
                                 > 
+                                {/* <div style={{ overflowX:"scroll"  }}> */}
                                 <NavDropdown.Item href="/brandingsection">
                                 Branding
                                 </NavDropdown.Item>
@@ -144,7 +146,7 @@ const Header = ({
                                   <NavDropdown.Divider />
                                   <NavDropdown.Item href="/appdev">App Development</NavDropdown.Item>
                                  
-                                 
+                                  {/* </div> */}
                                   {/* <NavDropdown.Item href="/seo">
                                   SEO Services
                                   </NavDropdown.Item> */}
